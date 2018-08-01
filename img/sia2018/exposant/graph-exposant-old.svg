@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="675px" height="613px" viewBox="0 0 675 613" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 15</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="365" cy="352" r="151"></circle>
+        <filter x="-12.3%" y="-11.6%" width="124.5%" height="124.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15271173 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Espace-exposant" transform="translate(-365.000000, -1211.000000)">
+            <g id="Group-15" transform="translate(355.000000, 1199.000000)">
+                <g id="Oval-8" fill-opacity="1" fill="black">
+                    <use filter="url(#filter-2)" xlink:href="#path-1"></use>
+                </g>
+                <circle id="Oval-8" fill="#FFFFFF" cx="366" cy="323" r="176"></circle>
+                <g id="Group-42" transform="translate(182.000000, 0.000000)">
+                    <text id="55" font-family="BebasNeueBold, Bebas Neue" font-size="52" font-weight="bold" letter-spacing="1.03999984" fill="#E74892">
+                        <tspan x="161.868" y="49">55</tspan>
+                    </text>
+                    <text id="visites-officielles" font-family="BebasNeueRegular, Bebas Neue" font-size="24" font-weight="normal" letter-spacing="0.480000138" fill="#2A2A2A">
+                        <tspan x="107.831999" y="85">visites officielles</tspan>
+                    </text>
+                    <text id="½-million-de-visiteu" font-family="BebasNeueBold, Bebas Neue" font-size="50.5" font-weight="bold" line-spacing="51.4000015" letter-spacing="0.809999903" fill="#2A2A2A">
+                        <tspan x="91.0355004" y="276.253">½ million</tspan>
+                        <tspan x="70.1002506" y="327.653001">de visiteurs</tspan>
+                        <tspan x="282.43275" y="334.4" font-size="40.4999989"> </tspan>
+                        <tspan x="47.1490046" y="392.700001" font-family="BebasNeueRegular, Bebas Neue" font-size="28.7999992" font-weight="normal">et plus de 30 000 visiteurs </tspan>
+                        <tspan x="104.369203" y="427.700001" font-family="BebasNeueRegular, Bebas Neue" font-size="28.7999992" font-weight="normal">professionnels</tspan>
+                    </text>
+                </g>
+                <g id="Group-37" transform="translate(0.000000, 132.000000)">
+                    <text id="48" font-family="BebasNeueBold, Bebas Neue" font-size="52" font-weight="bold" letter-spacing="1.03999984" fill="#E74427">
+                        <tspan x="56.8680002" y="49">48</tspan>
+                    </text>
+                    <text id="Délégations-internat" font-family="BebasNeueRegular, Bebas Neue" font-size="24" font-weight="normal" letter-spacing="0.480000138" fill="#2A2A2A">
+                        <tspan x="28.9759992" y="82">Délégations </tspan>
+                        <tspan x="11.527999" y="111">internationales</tspan>
+                    </text>
+                </g>
+                <g id="Group-38" transform="translate(554.000000, 382.000000)">
+                    <text id="2400" font-family="BebasNeueBold, Bebas Neue" font-size="52" font-weight="bold" letter-spacing="1.03999984" fill="#30B3E8">
+                        <tspan x="35.7360003" y="49">2400</tspan>
+                    </text>
+                    <text id="Journalistes-accrédi" font-family="BebasNeueRegular, Bebas Neue" font-size="24" font-weight="normal" letter-spacing="0.480000138" fill="#2A2A2A">
+                        <tspan x="25.0399992" y="82">Journalistes </tspan>
+                        <tspan x="33.1279993" y="111">accrédités</tspan>
+                    </text>
+                </g>
+                <g id="Group-39" transform="translate(554.000000, 132.000000)">
+                    <text id="900+" font-family="BebasNeueBold, Bebas Neue" font-size="52" font-weight="bold" letter-spacing="1.03999984" fill="#F6A723">
+                        <tspan x="35.7360003" y="49">900+</tspan>
+                    </text>
+                    <text id="exposants" font-family="BebasNeueRegular, Bebas Neue" font-size="24" font-weight="normal" letter-spacing="0.480000138" fill="#2A2A2A">
+                        <tspan x="34.4599994" y="82">exposants</tspan>
+                    </text>
+                </g>
+                <g id="Group-40" transform="translate(6.000000, 395.000000)">
+                    <text id="22" font-family="BebasNeueBold, Bebas Neue" font-size="52" font-weight="bold" letter-spacing="1.03999984" fill="#F6A723">
+                        <tspan x="56.3680002" y="49">22</tspan>
+                    </text>
+                    <text id="pays-représentés" font-family="BebasNeueRegular, Bebas Neue" font-size="24" font-weight="normal" letter-spacing="0.480000138" fill="#2A2A2A">
+                        <tspan x="4.43199889" y="85">pays représentés</tspan>
+                    </text>
+                </g>
+                <g id="Group-41" transform="translate(255.000000, 555.000000)">
+                    <text id="16-millions" font-family="BebasNeueBold, Bebas Neue" font-size="44" font-weight="bold" letter-spacing="0.879999816" fill="#80BA27">
+                        <tspan x="22.6139964" y="42.5">16 millions</tspan>
+                    </text>
+                    <text id="de-mentions-#sia2017" font-family="BebasNeueRegular, Bebas Neue" font-size="19.1999989" font-weight="normal" letter-spacing="0.384000088" fill="#2A2A2A">
+                        <tspan x="39.6143985" y="68.7999976">de mentions #sia2017</tspan>
+                    </text>
+                </g>
+                <g id="Group-43" transform="translate(109.000000, 55.000000)" stroke-width="18">
+                    <path d="M328,128 C401.996975,129.357438 466.603556,169.997558 502,230" id="Stroke-1" stroke="#F6A723" transform="translate(415.000000, 179.000000) rotate(30.000000) translate(-415.000000, -179.000000) "></path>
+                    <path d="M171,138 C209.18591,74.5464123 276.550477,38.7947202 346,38" id="Stroke-3" stroke="#E74892" transform="translate(258.500000, 88.000000) rotate(30.000000) translate(-258.500000, -88.000000) "></path>
+                    <path d="M103.100616,271 C68.1767741,206.708209 70.8361468,131.080817 104,71" id="Stroke-5" stroke="#E74427" transform="translate(91.000000, 171.000000) rotate(30.000000) translate(-91.000000, -171.000000) "></path>
+                    <path d="M188,408 C114.003025,406.642562 49.3964438,366.002442 14,306" id="Stroke-7" stroke="#F6A723" transform="translate(101.000000, 357.000000) rotate(30.000000) translate(-101.000000, -357.000000) "></path>
+                    <path d="M345,399 C306.81409,462.453588 239.451054,498.20528 170,499" id="Stroke-9" stroke="#80BA27" transform="translate(257.500000, 449.000000) rotate(30.000000) translate(-257.500000, -449.000000) "></path>
+                    <path d="M412.899365,264 C447.822476,328.291791 445.16465,403.919183 412,464" id="Stroke-11" stroke="#30B3E8" transform="translate(425.000000, 364.000000) rotate(30.000000) translate(-425.000000, -364.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

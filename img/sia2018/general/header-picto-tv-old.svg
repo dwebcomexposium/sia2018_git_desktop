@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="32px" viewBox="0 0 34 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-tv</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Header" transform="translate(-908.000000, -19.000000)">
+            <g id="Rings-animaux">
+                <g transform="translate(826.000000, 0.000000)">
+                    <g id="icon-tv" transform="translate(83.000000, 20.000000)">
+                        <g id="tv">
+                            <text id="TV" font-family="OpenSans-Bold, Open Sans" font-size="13" font-weight="bold" fill="#FFFFFF">
+                                <tspan x="8.01147461" y="24">TV</tspan>
+                            </text>
+                            <path d="M2.31828767,9.73417071 C5.78697416,9.24472357 10.195164,9 15.5428571,9 C20.9862425,9 25.6990663,9.25356015 29.6813286,9.76068045 L29.6813283,9.76068319 C30.5448341,9.87064614 31.2380489,10.5265019 31.3956318,11.3825987 C31.7985439,13.5714894 32,16.2772898 32,19.5 C32,22.7148057 31.799531,25.4152342 31.3985929,27.6012856 L31.398575,27.6012823 C31.2404571,28.4633955 30.5394175,29.1221045 29.6691385,29.226291 C25.3605681,29.742097 20.6518077,30 15.5428571,30 C10.5114452,30 6.10775222,29.749866 2.33177831,29.249598 L2.33177573,29.2496174 C1.46774791,29.1351448 0.777338129,28.4743188 0.62515952,27.616129 C0.208386507,25.2657964 0,22.5604201 0,19.5 C2.86357376e-16,16.4310004 0.209556517,13.719038 0.628669551,11.3641127 L0.628670328,11.3641128 C0.780212315,10.512624 1.46190231,9.85501051 2.31828767,9.73417071 Z" id="Rectangle-6" stroke="#FFFFFF" stroke-width="2"></path>
+                            <path d="M15.5,8.5 L10.5,3.5" id="Line" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"></path>
+                            <path d="M23.5,8.5 L15.5,0.5" id="Line" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" transform="translate(19.500000, 4.500000) scale(1, -1) translate(-19.500000, -4.500000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

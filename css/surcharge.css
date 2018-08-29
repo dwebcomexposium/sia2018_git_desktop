@@ -54,6 +54,10 @@
   -moz-osx-font-smoothing: grayscale;
 }*/
 
+video::-webkit-media-controls-overlay-play-button {
+ display: none;
+}
+
 .icon-sia-icon-account:before {
     content: "\e900";
 }

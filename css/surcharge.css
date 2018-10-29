@@ -7535,3 +7535,5 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
     margin-right: 5px;
   }
 }
+
+.mod-catal:not(.gm-style) img {width:auto}

@@ -5,7 +5,7 @@
       init : function(){
 
           this.popin();
-          this.quiz();
+          //this.quiz();
 
       },
 
@@ -50,7 +50,7 @@
 
 
 
-      quiz : function(){
+      /*quiz : function(){
         var quiz = {
           questions: [
             {
@@ -262,7 +262,7 @@
           }
         });
 
-      }
+      }*/
 
   }
   siaJS.init();

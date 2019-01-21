@@ -5328,7 +5328,8 @@ body.visiteur-pro .article-wrapper .article-content .important1 {
     margin: 40px auto 40px;
     display: block;
     width: 100%;
-    min-height: 450px
+    min-height: 450px;
+    border: 0 none
 }
 
 .article-wrapper .article-content figure {
@@ -8667,6 +8668,10 @@ screen and (-ms-high-contrast: none) {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end
+}
+
+.quiz-parcours {
+    height: 1350px
 }
 
 .quiz.step-0 .quiz-header {

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="688" height="658" viewBox="0 0 688 658">
+  <defs>
+    <circle id="graph-exposant-en-b" cx="256" cy="297" r="151"/>
+    <filter id="graph-exposant-en-a" width="124.5%" height="124.5%" x="-12.3%" y="-11.6%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="12"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15271173 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-32 -12)">
+    <g transform="translate(111 47)">
+      <use fill="#000" filter="url(#graph-exposant-en-a)" xlink:href="#graph-exposant-en-b"/>
+      <circle cx="257" cy="268" r="176" fill="#FFF"/>
+      <g stroke-width="18">
+        <path stroke="#F6A723" d="M328,128 C401.996975,129.357438 466.603556,169.997558 502,230" transform="rotate(30 415 179)"/>
+        <path stroke="#E74892" d="M171,138 C209.18591,74.5464123 276.550477,38.7947202 346,38" transform="rotate(30 258.5 88)"/>
+        <path stroke="#E74427" d="M103.100616,271 C68.1767741,206.708209 70.8361468,131.080817 104,71" transform="rotate(30 91 171)"/>
+        <path stroke="#F6A723" d="M188,408 C114.003025,406.642562 49.3964438,366.002442 14,306" transform="rotate(30 101 357)"/>
+        <path stroke="#80BA27" d="M345,399 C306.81409,462.453588 239.451054,498.20528 170,499" transform="rotate(30 257.5 449)"/>
+        <path stroke="#30B3E8" d="M412.899365,264 C447.822476,328.291791 445.16465,403.919183 412,464" transform="rotate(30 425 364)"/>
+      </g>
+    </g>
+    <text fill="#2A2A2A" font-family="BebasNeueRegular, Bebas Neue" font-size="29">
+      <tspan x="313.009" y="359">with 37 950</tspan> <tspan x="264.709" y="394">professional visitors </tspan>
+    </text>
+    <text fill="#E74892" font-family="BebasNeueBold, Bebas Neue" font-size="52" font-weight="bold">
+      <tspan x="348.408" y="49">57</tspan>
+    </text>
+    <text fill="#F6A723" font-family="BebasNeueBold, Bebas Neue" font-size="52" font-weight="bold">
+      <tspan x="592" y="189">1 000 +</tspan>
+    </text>
+    <text fill="#80BA27" font-family="BebasNeueBold, Bebas Neue" font-size="52" font-weight="bold">
+      <tspan x="290" y="603">3 millions</tspan>
+    </text>
+    <text fill="#30B3E8" font-family="BebasNeueBold, Bebas Neue" font-size="52" font-weight="bold">
+      <tspan x="605" y="428">8 118</tspan>
+    </text>
+    <text fill="#E74427" font-family="BebasNeueBold, Bebas Neue" font-size="52" font-weight="bold">
+      <tspan x="67.408" y="170">65</tspan>
+    </text>
+    <text fill="#F6A723" font-family="BebasNeueBold, Bebas Neue" font-size="52" font-weight="bold">
+      <tspan x="67.408" y="437">27</tspan>
+    </text>
+    <text fill="#2A2A2A" font-family="BebasNeueRegular, Bebas Neue" font-size="25">
+      <tspan x="605" y="220">EXHIBITORS</tspan>
+    </text>
+    <text fill="#2A2A2A" font-family="BebasNeueRegular, Bebas Neue" font-size="25">
+      <tspan x="312" y="79">OFFICIAL VISITS</tspan>
+    </text>
+    <text fill="#2A2A2A" font-family="BebasNeueRegular, Bebas Neue" font-size="25">
+      <tspan x="592.337" y="462">PRESS COVERAGE</tspan>
+    </text>
+    <text fill="#2A2A2A" font-family="BebasNeueRegular, Bebas Neue" font-size="25">
+      <tspan x="31.087" y="205">INTERNATIONAL</tspan> <tspan x="39.138" y="235">DELEGATIONs</tspan>
+    </text>
+    <text fill="#2A2A2A" font-family="BebasNeueRegular, Bebas Neue" font-size="25">
+      <tspan x="303.225" y="639">PEOPLE REACHED ON </tspan> <tspan x="327.6" y="669">SOCIAL MEDIA</tspan>
+    </text>
+    <text fill="#2A2A2A" font-family="BebasNeueRegular, Bebas Neue" font-size="25">
+      <tspan x="47.85" y="472">COUNTRIES </tspan> <tspan x="36.225" y="502">REPRESENTED</tspan>
+    </text>
+    <text fill="#2A2A2A" font-family="BebasNeueBold, Bebas Neue" font-size="52" font-weight="bold">
+      <tspan x="294.57" y="260.512">633 213</tspan> <tspan x="290.592" y="313.512">VISITORS</tspan>
+    </text>
+  </g>
+</svg>

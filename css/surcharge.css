@@ -1090,8 +1090,8 @@ div#bandeau-header #devenez-exposant {
     width: 265px;
     background-image: url(img/sia2018/exposant/header-bg-exposant.svg);
     background-repeat: no-repeat;
-    background-position: 20px center;
-    background-size: 63px auto;
+    background-position: 16px center;
+    background-size: 56px auto;
     background-color: #f6a924;
     text-align: left;
     -webkit-transition: all 0.25s ease;
@@ -1111,15 +1111,15 @@ div#bandeau-header #devenez-exposant:hover a {
 }
 
 div#bandeau-header #devenez-exposant a {
-    padding: 30px 0 0 87px;
+    padding: 34px 0 0 78px;
     font-size: 16px;
     line-height: 20px;
     width: 100%
 }
 
 div#bandeau-header #devenez-exposant a span {
-    font-size: 32px;
-    margin-top: 4px
+    font-size: 25px;
+    margin-top: 2px
 }
 
 div#bandeau-header.visiteur-pro {

@@ -1101,7 +1101,7 @@ div#bandeau-header #devenez-exposant {
 
 div#bandeau-header #devenez-exposant:hover {
     background-image: url(img/sia2018/exposant/header-bg-exposant-jaune.svg);
-    background-size: 63px auto;
+    background-size: 56px auto;
     background-color: white;
     color: #f6a924
 }
@@ -1120,6 +1120,11 @@ div#bandeau-header #devenez-exposant a {
 div#bandeau-header #devenez-exposant a span {
     font-size: 25px;
     margin-top: 2px
+}
+
+.is-stuck.site-banner div#bandeau-header #devenez-exposant a span {
+    font-size: 21px;
+    margin-top: 0px
 }
 
 div#bandeau-header.visiteur-pro {
@@ -1403,7 +1408,7 @@ body.espace-exposants .is-stuck.site-banner div#bandeau-header #devenez-exposant
 }
 
 body.espace-exposants .is-stuck.site-banner div#bandeau-header #devenez-exposant a {
-    padding: 15px 0 0 93px;
+    padding: 18px 0 0 93px;
     line-height: 22px
 }
 
@@ -1479,7 +1484,7 @@ body.espace-exposants .is-stuck.site-banner div#bandeau-header #communaute-fb a 
 
 .is-stuck.site-banner div#bandeau-header #devenez-exposant a {
     line-height: 24px;
-    padding: 13px 0 0 94px
+    padding: 16px 0 0 94px
 }
 
 .is-stuck.site-banner div#bandeau-header #devenez-exposant {
@@ -1640,6 +1645,15 @@ body.espace-exposants .is-stuck.site-banner div#bandeau-header #communaute-fb a 
 
 .is-stuck.site-banner div#bandeau-header #rings-animaux {
     display: none
+}
+
+body.exposants div#bandeau-header #devenez-exposant a span {
+    font-size: 29px
+}
+
+body.exposants .is-stuck.site-banner div#bandeau-header #devenez-exposant a span {
+    font-size: 21px;
+    margin-top: 0px
 }
 
 nav.main-navigation li ul.mn-menu-submenu {

@@ -17,22 +17,22 @@
                         <use xlink:href="#path-1"></use>
                     </mask>
                     <g id="Clip-2"></g>
-                    <polygon id="Fill-1" fill="#89298E" mask="url(#mask-2)" points="-4.18918919 44.1666667 34.8540541 44.1666667 34.8540541 -4.16666667 -4.18918919 -4.16666667"></polygon>
+                    <polygon id="Fill-1" fill="#4b2980" mask="url(#mask-2)" points="-4.18918919 44.1666667 34.8540541 44.1666667 34.8540541 -4.16666667 -4.18918919 -4.16666667"></polygon>
                     <mask id="mask-4" fill="white">
                         <use xlink:href="#path-3"></use>
                     </mask>
                     <g id="Clip-5"></g>
-                    <polygon id="Fill-4" fill="#89298E" mask="url(#mask-4)" points="-0.511918919 26.2025 31.0175946 26.2025 31.0175946 2.77 -0.511918919 2.77"></polygon>
+                    <polygon id="Fill-4" fill="#4b2980" mask="url(#mask-4)" points="-0.511918919 26.2025 31.0175946 26.2025 31.0175946 2.77 -0.511918919 2.77"></polygon>
                     <mask id="mask-6" fill="white">
                         <use xlink:href="#path-5"></use>
                     </mask>
                     <g id="Clip-8"></g>
-                    <polygon id="Fill-7" fill="#89298E" mask="url(#mask-6)" points="16.0814595 34.9183333 31.4231081 34.9183333 31.4231081 19.66 16.0814595 19.66"></polygon>
+                    <polygon id="Fill-7" fill="#4b2980" mask="url(#mask-6)" points="16.0814595 34.9183333 31.4231081 34.9183333 31.4231081 19.66 16.0814595 19.66"></polygon>
                     <mask id="mask-8" fill="white">
                         <use xlink:href="#path-7"></use>
                     </mask>
                     <g id="Clip-11"></g>
-                    <polygon id="Fill-10" fill="#89298E" mask="url(#mask-8)" points="-0.757405405 34.9183333 14.5834054 34.9183333 14.5834054 19.66 -0.757405405 19.66"></polygon>
+                    <polygon id="Fill-10" fill="#4b2980" mask="url(#mask-8)" points="-0.757405405 34.9183333 14.5834054 34.9183333 14.5834054 19.66 -0.757405405 19.66"></polygon>
                 </g>
             </g>
         </g>

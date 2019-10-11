@@ -4892,9 +4892,9 @@ div#slider-exposant.slider-wrapper .bx-wrapper .bx-pager.bx-default-pager a.acti
 .article-wrapper,
 .article-wrapper p {
     font-family: 'akrobat-regular', helvetica, arial, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     color: #293a4d;
-    line-height: 28px
+    line-height: 29px
 }
 
 .article-wrapper .article-title {
@@ -5073,12 +5073,12 @@ body.sitemap h1,
 .article-wrapper .article-intro p {
     background-color: white;
     font-family: "sofiapro-light", arial, sans-serif;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: normal;
     text-align: center;
     display: inline-block;
-    padding: 8px 24px;
-    line-height: 38px
+    padding: 21px 24px 24px 24px;
+    line-height: 33px
 }
 
 .article-wrapper .article-content h2,

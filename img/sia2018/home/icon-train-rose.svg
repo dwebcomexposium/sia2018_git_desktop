@@ -18,22 +18,22 @@
                             <use xlink:href="#path-1"></use>
                         </mask>
                         <g id="Clip-2"></g>
-                        <polygon id="Fill-1" fill="#E74892" mask="url(#mask-2)" points="-4.32432432 45.2708333 35.9783784 45.2708333 35.9783784 -4.27083333 -4.32432432 -4.27083333"></polygon>
+                        <polygon id="Fill-1" fill="#e30059" mask="url(#mask-2)" points="-4.32432432 45.2708333 35.9783784 45.2708333 35.9783784 -4.27083333 -4.32432432 -4.27083333"></polygon>
                         <mask id="mask-4" fill="white">
                             <use xlink:href="#path-3"></use>
                         </mask>
                         <g id="Clip-5"></g>
-                        <polygon id="Fill-4" fill="#E74892" mask="url(#mask-4)" points="-0.528432432 26.8575625 32.0181622 26.8575625 32.0181622 2.83925 -0.528432432 2.83925"></polygon>
+                        <polygon id="Fill-4" fill="#e30059" mask="url(#mask-4)" points="-0.528432432 26.8575625 32.0181622 26.8575625 32.0181622 2.83925 -0.528432432 2.83925"></polygon>
                         <mask id="mask-6" fill="white">
                             <use xlink:href="#path-5"></use>
                         </mask>
                         <g id="Clip-8"></g>
-                        <polygon id="Fill-7" fill="#E74892" mask="url(#mask-6)" points="16.6002162 35.7912917 32.4367568 35.7912917 32.4367568 20.1515 16.6002162 20.1515"></polygon>
+                        <polygon id="Fill-7" fill="#e30059" mask="url(#mask-6)" points="16.6002162 35.7912917 32.4367568 35.7912917 32.4367568 20.1515 16.6002162 20.1515"></polygon>
                         <mask id="mask-8" fill="white">
                             <use xlink:href="#path-7"></use>
                         </mask>
                         <g id="Clip-11"></g>
-                        <polygon id="Fill-10" fill="#E74892" mask="url(#mask-8)" points="-0.781837838 35.7912917 15.0538378 35.7912917 15.0538378 20.1515 -0.781837838 20.1515"></polygon>
+                        <polygon id="Fill-10" fill="#e30059" mask="url(#mask-8)" points="-0.781837838 35.7912917 15.0538378 35.7912917 15.0538378 20.1515 -0.781837838 20.1515"></polygon>
                     </g>
                 </g>
             </g>

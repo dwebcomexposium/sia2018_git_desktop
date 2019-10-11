@@ -54,29 +54,29 @@
 }
 
 @font-face {
-    font-family: 'bebas_neuebold';
-    src: url("fonts/bebasneue/bebasneue_bold-webfont.woff2") format("woff2"), url("fonts/bebasneue/bebasneue_bold-webfont.woff") format("woff");
+    font-family: 'sofiapro-light';
+    src: url("fonts/sofia/sofiapro-light-webfont.woff2") format("woff2"), url("fonts/sofia/sofiapro-light-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
-    font-family: 'bebas_neueregular';
-    src: url("fonts/bebasneue/bebasneue_regular-webfont.woff2") format("woff2"), url("fonts/bebasneue/bebasneue_regular-webfont.woff") format("woff");
+    font-family: 'sofiapro-bold';
+    src: url("fonts/sofia/sofiapro-bold-webfont.woff2") format("woff2"), url("fonts/sofia/sofiapro-bold-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
-    font-family: 'open_sansbold';
-    src: url("fonts/opensans/opensans-bold-webfont.woff2") format("woff2"), url("fonts/opensans/opensans-bold-webfont.woff") format("woff");
+    font-family: 'akrobat-bold';
+    src: url("fonts/akrobat/Akrobat-ExtraBold.woff2") format("woff2"), url("fonts/akrobat/Akrobat-ExtraBold.woff") format("woff");
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
-    font-family: 'open_sansregular';
-    src: url("fonts/opensans/opensans-regular-webfont.woff2") format("woff2"), url("fonts/opensans/opensans-regular-webfont.woff") format("woff");
+    font-family: 'akrobat-regular';
+    src: url("fonts/akrobat/Akrobat-Regular.woff2") format("woff2"), url("fonts/akrobat/Akrobat-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal
 }
@@ -191,7 +191,7 @@
 
 strong,
 b {
-    font-family: "open_sansbold", arial, sans-serif;
+    font-family: "akrobat-bold", arial, sans-serif;
     font-weight: normal
 }
 
@@ -220,8 +220,9 @@ b {
 }
 
 body {
+    font-size: 1.9em;
     background: #f7f7f7;
-    font-family: 'open_sansregular', helvetiva, arial, sans-serif;
+    font-family: 'akrobat-regular', helvetiva, arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden
@@ -240,11 +241,11 @@ body {
 h2,
 .h2-like {
     border-bottom: 0;
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: normal;
-    letter-spacing: 1px
+    letter-spacing: 0
 }
 
 .clear {
@@ -271,7 +272,7 @@ h2,
 .gla-item>a:hover .gla-item-content,
 .gla-item>a:focus .gla-item-content {
     background: white;
-    color: #2a2a2a
+    color: #293a4d
 }
 
 .article-wrapper img.at-illust {
@@ -297,7 +298,7 @@ h2,
     content: '›';
     border: 0 none;
     font-size: 18px;
-    font-family: 'open_sansregular', helvetiva, arial, sans-serif;
+    font-family: 'akrobat-regular', helvetiva, arial, sans-serif;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -308,7 +309,7 @@ h2,
 }
 
 .lang-switcher .ls-trigger {
-    font-family: 'open_sansregular', helvetiva, arial, sans-serif
+    font-family: 'akrobat-regular', helvetiva, arial, sans-serif
 }
 
 .lang-switcher.is-open .ls-trigger:after {
@@ -318,7 +319,7 @@ h2,
 }
 
 .lang-switcher .ls-lang-link {
-    color: #2a2a2a
+    color: #293a4d
 }
 
 .lang-switcher .ls-lang-link:hover {
@@ -331,7 +332,7 @@ h2,
 
 .ls-lang-item.is-active {
     font-weight: normal;
-    font-family: 'open_sansbold', helvetiva, arial, sans-serif
+    font-family: 'akrobat-bold', helvetiva, arial, sans-serif
 }
 
 .quicklinks li {
@@ -468,7 +469,7 @@ header.site-banner .quicklinks.topmenu .linkid306293 [class^="btn"]:hover {
 
 header.site-banner .quicklinks.topmenu .linkid306294 [class^="btn"]:active,
 header.site-banner .quicklinks.topmenu .linkid306294 [class^="btn"]:hover {
-    background-color: #2a2a2a
+    background-color: #293a4d
 }
 
 header.site-banner .quicklinks.topmenu [class^="btn"]:active::before,
@@ -478,16 +479,16 @@ header.site-banner .quicklinks.topmenu [class^="btn"]:hover::before {
 
 header.site-banner .quicklinks.topmenu li.linkid306292 a {
     color: #4b2980;
-    font-size: 12px
+    font-size: 13px
 }
 
 header.site-banner .quicklinks.topmenu li.linkid306293 a {
     color: #0058DE;
-    font-size: 12px
+    font-size: 13px
 }
 
 header.site-banner .quicklinks.topmenu li.linkid306294 a {
-    font-size: 12px
+    font-size: 13px
 }
 
 header.site-banner #cxpmClientAccountWidget {
@@ -496,7 +497,7 @@ header.site-banner #cxpmClientAccountWidget {
     top: 0;
     right: 50px;
     border-right: 1px solid #e6e6e6;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 35px
 }
 
@@ -513,7 +514,7 @@ header.site-banner #cxpmClientAccountWidget i.icon-user-circle-o {
 }
 
 #cxpmClientAccountWidget .widget-text span a {
-    font-size: 12px !important;
+    font-size: 13px !important;
     padding: 0;
     line-height: 33px
 }
@@ -529,7 +530,7 @@ header.site-banner #cxpmClientAccountWidget i.icon-user-circle-o {
 
 #cxpmClientAccountWidget .widget-text span a:hover,
 header.site-banner #cxpmClientAccountWidget:hover a {
-    color: #2a2a2a !important
+    color: #293a4d !important
 }
 
 header.site-banner #cxpmClientAccountWidget:hover i.icon-user-circle-o {
@@ -543,12 +544,12 @@ header.site-banner .quicklinks ul {
 
 header.site-banner .quicklinks li a {
     background-color: transparent;
-    color: #2a2a2a
+    color: #293a4d
 }
 
 header.site-banner .quicklinks.social li a {
     background: none;
-    color: #2A2A2A;
+    color: #293a4d;
     padding: 6px 4px;
     font-size: 14px;
     text-align: center;
@@ -625,7 +626,7 @@ header.site-banner [class^="btn"] {
 }
 
 .cc-cookie-link {
-    color: #2a2a2A
+    color: #293a4d
 }
 
 .cc-cookies a.cc-cookie-link:hover {
@@ -690,7 +691,7 @@ header.site-banner .nf-main-content .inside {
 }
 
 .cxp-newsletter h2 {
-    font-family: 'open_sansregular', helvetiva, arial, sans-serif;
+    font-family: 'akrobat-regular', helvetiva, arial, sans-serif;
     letter-spacing: 0;
     font-size: 12px
 }
@@ -702,7 +703,7 @@ header.site-banner .nf-main-content .inside {
     background-position: right 25px center;
     background-size: 26px auto;
     text-decoration: none;
-    font-family: 'open_sansbold', helvetica, arial, sa, sans-serif;
+    font-family: 'akrobat-bold', helvetica, arial, sa, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -753,8 +754,8 @@ div#bandeau-header {
 }
 
 div#bandeau-header.en #infos-salon .bigtitre {
-    font-size: 26px;
-    letter-spacing: 1px
+    font-size: 18.7px;
+    letter-spacing: 0
 }
 
 div#bandeau-header.en #infos-salon p.last {
@@ -762,7 +763,7 @@ div#bandeau-header.en #infos-salon p.last {
 }
 
 div#bandeau-header.en .bandeau-header-bt a {
-    font-size: 11px
+    font-size: 12px
 }
 
 div#bandeau-header.post-salon #communaute-fb {
@@ -828,20 +829,20 @@ div#bandeau-header #infos-salon p {
     padding: 0;
     width: 260px;
     line-height: 1;
-    font-size: 17px;
-    letter-spacing: 0.24px;
+    font-size: 21px;
+    letter-spacing: 0.44px;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease
 }
 
 div#bandeau-header #infos-salon .bigtitre {
-    font-size: 30px;
+    font-size: 20px;
     text-transform: uppercase;
     margin-top: 12px;
     margin-bottom: 5px;
     letter-spacing: 0.9px;
-    font-family: "bebas_neueregular", arial, sans-serif;
+    font-family: "sofiapro-light", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-transition: all 0.3s ease;
@@ -850,21 +851,21 @@ div#bandeau-header #infos-salon .bigtitre {
 }
 
 div#bandeau-header #infos-salon .bigtitre strong {
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     font-weight: normal
 }
 
 div#bandeau-header #infos-salon .bigtitre strong span {
-    font-family: "bebas_neueregular", arial, sans-serif;
+    font-family: "sofiapro-light", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
 
 div#bandeau-header #infos-salon p.last {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
-    margin: 14px 0 0 25px;
-    padding: 8px 0 0 0;
-    letter-spacing: 2.64px;
+    margin: 10px 0 0 25px;
+    padding: 11px 0 0 0;
+    letter-spacing: 2.84px;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease
@@ -883,27 +884,27 @@ div#bandeau-header .bandeau-header-bt {
 div#bandeau-header .bandeau-header-bt a {
     color: white;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 15px;
     display: block;
     width: 190px;
     height: 119px;
     letter-spacing: 0;
-    line-height: 1.6em;
+    line-height: 1.5em;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease
 }
 
 div#bandeau-header .bandeau-header-bt a span {
-    font-size: 20px;
+    font-size: 16.5px;
     text-transform: uppercase;
     display: block;
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    margin-bottom: 3px;
+    margin-bottom: -1px;
     color: white;
-    letter-spacing: 1px;
+    letter-spacing: 0;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease
@@ -1003,9 +1004,9 @@ div#bandeau-header #achat-billets {
     width: 230px;
     background-image: url("img/sia2018/home/picto-ticket.svg");
     background-repeat: no-repeat;
-    background-position: 22px center;
+    background-position: 20px center;
     background-color: #f6a924;
-    background-size: 84px auto
+    background-size: 62px auto
 }
 
 div#bandeau-header #achat-billets:hover {
@@ -1013,9 +1014,9 @@ div#bandeau-header #achat-billets:hover {
 }
 
 div#bandeau-header #achat-billets a {
-    padding: 30px 0 0 116px;
+    padding: 30px 0 0 87px;
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
     width: 100%;
     letter-spacing: 0;
     -webkit-transition: all 0.3s ease;
@@ -1024,9 +1025,9 @@ div#bandeau-header #achat-billets a {
 }
 
 div#bandeau-header #achat-billets a span {
-    font-size: 35px;
-    margin-top: 2px;
-    letter-spacing: 1px;
+    font-size: 30px;
+    margin-top: -5px;
+    letter-spacing: 0;
     color: white;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -1063,25 +1064,25 @@ div#bandeau-header #communaute-fb {
 }
 
 div#bandeau-header #communaute-fb a {
-    padding: 27px 0 0 80px;
+    padding: 27px 0 0 70px;
     display: block;
     width: 230px;
     height: 119px;
     background-image: url("img/sia2018/exposant/picto-header-facebook.svg");
     background-repeat: no-repeat;
-    background-position: 30px center
+    background-position: 24px center
 }
 
 div#bandeau-header #communaute-fb a:hover {
     background-image: url("img/sia2018/exposant/picto-header-facebook-bleu.svg");
     background-repeat: no-repeat;
-    background-position: 30px center;
+    background-position: 24px center;
     background-color: white;
     color: #3B5998
 }
 
 div#bandeau-header #communaute-fb a span:last-child {
-    font-size: 26px
+    font-size: 20px
 }
 
 div#bandeau-header #devenez-exposant {
@@ -1090,7 +1091,7 @@ div#bandeau-header #devenez-exposant {
     background-image: url(img/sia2018/exposant/header-bg-exposant.svg);
     background-repeat: no-repeat;
     background-position: 20px center;
-    background-size: 82px auto;
+    background-size: 63px auto;
     background-color: #f6a924;
     text-align: left;
     -webkit-transition: all 0.25s ease;
@@ -1100,7 +1101,7 @@ div#bandeau-header #devenez-exposant {
 
 div#bandeau-header #devenez-exposant:hover {
     background-image: url(img/sia2018/exposant/header-bg-exposant-jaune.svg);
-    background-size: 82px auto;
+    background-size: 63px auto;
     background-color: white;
     color: #f6a924
 }
@@ -1110,8 +1111,9 @@ div#bandeau-header #devenez-exposant:hover a {
 }
 
 div#bandeau-header #devenez-exposant a {
-    padding: 30px 0 0 114px;
-    font-size: 14px;
+    padding: 30px 0 0 87px;
+    font-size: 16px;
+    line-height: 20px;
     width: 100%
 }
 
@@ -1121,16 +1123,16 @@ div#bandeau-header #devenez-exposant a span {
 }
 
 div#bandeau-header.visiteur-pro {
-    background: #89298d
+    background: #4b2980
 }
 
 div#bandeau-header.visiteur-pro #infos-salon p.last {
-    border-top: 1px solid #a54fa8
+    border-top: 1px solid #714fa5
 }
 
 div#bandeau-header.visiteur-pro #rings-animaux {
     right: 260px;
-    border-left: 1px solid #a54fa8;
+    border-left: 1px solid #714fa5;
     width: 200px
 }
 
@@ -1209,16 +1211,16 @@ body.espace-exposants .article-wrapper .article-content h2 strong {
 }
 
 nav.main-navigation li a {
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: 21px;
-    letter-spacing: 1px
+    font-size: 16px;
+    letter-spacing: 0
 }
 
 nav.main-navigation .mn-item-lvl-2 a {
     text-transform: none;
-    font-family: 'open_sansregular', helvetica, arial, sans-serif
+    font-family: 'akrobat-regular', helvetica, arial, sans-serif
 }
 
 .is-open .mn-link.mn-link {
@@ -1341,10 +1343,10 @@ nav.main-navigation .mn-menu-item.mn-menu-item-310626:hover {
 }
 
 nav.main-navigation li.mn-menu-item-310626 a.mn-link {
-    font-family: 'open_sansregular', helvetica, arial, sans-serif;
-    font-size: 14px;
+    font-family: 'akrobat-regular', helvetica, arial, sans-serif;
+    font-size: 16px;
     text-transform: none;
-    line-height: 17px;
+    line-height: 18px;
     padding-bottom: 4px;
     letter-spacing: 0
 }
@@ -1362,11 +1364,11 @@ nav.main-navigation li.mn-menu-item-310626 a.mn-link span {
 
 .sticky-quicklinks .sticky-quicklink {
     color: white;
-    font-family: 'bebas_neuebold', helvetica, arial, sans-serif;
+    font-family: 'sofiapro-bold', helvetica, arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 15px;
-    letter-spacing: 1px;
+    letter-spacing: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1531,12 +1533,12 @@ body.espace-exposants .is-stuck.site-banner div#bandeau-header #communaute-fb a 
 .is-stuck.site-banner div#bandeau-header #infos-salon .bigtitre {
     font-size: 24px;
     margin-top: 8px;
-    letter-spacing: 0.6px
+    letter-spacing: 0
 }
 
 .is-stuck.site-banner div#bandeau-header.en #infos-salon .bigtitre {
     font-size: 21px;
-    letter-spacing: 0.6px;
+    letter-spacing: 0;
     margin-top: 9px
 }
 
@@ -1682,7 +1684,7 @@ nav.main-navigation .mn-menu-item:hover {
 }
 
 nav.main-navigation .mn-menu-item:hover a {
-    color: #2a2a2a
+    color: #293a4d
 }
 
 nav.main-navigation .mn-menu-submenu a.mn-link {
@@ -1691,7 +1693,7 @@ nav.main-navigation .mn-menu-submenu a.mn-link {
     transition: all 0.25s ease;
     position: relative;
     padding: 6px 20px;
-    font-size: 15px;
+    font-size: 18px;
     letter-spacing: 0;
     text-align: left;
     background: none
@@ -1847,26 +1849,28 @@ div#video-wrapper::before {
 }
 
 div#video-wrapper .video-titre {
+    text-transform: uppercase;
     position: absolute;
     right: 0;
     left: 0;
     margin: 0 auto;
     z-index: 100;
     color: white;
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: 74px;
-    letter-spacing: 2px;
-    line-height: 65px;
+    font-size: 55px;
+    letter-spacing: 0;
+    line-height: 52px;
     text-align: center;
-    bottom: 85px;
+    bottom: 100px;
     text-shadow: 0px 3px 20px rgba(0, 0, 0, 0.3)
 }
 
 div#video-wrapper .video-titre span {
+    text-transform: none;
     display: block;
-    font-family: 'open_sansregular', helvetica, arial, sans-serif;
+    font-family: 'akrobat-regular', helvetica, arial, sans-serif;
     font-size: 33px;
     letter-spacing: 0
 }
@@ -1996,21 +2000,21 @@ div#zone1 li a {
     -o-transition: all 0.25s;
     transition: all 0.25s;
     background: none;
-    color: #2a2a2a;
+    color: #293a4d;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    font-size: 19px;
-    line-height: 22px;
+    font-size: 15px;
+    line-height: 17px;
     text-align: left;
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    letter-spacing: 1px;
-    padding: 27px 24px;
+    letter-spacing: 0;
+    padding: 27px 17px;
     height: 100%;
     z-index: 1;
     position: relative
@@ -2093,28 +2097,28 @@ div#zone2 .main-title-with-link {
 
 div#zone2 .main-title-with-link>.main-title {
     margin-top: -31px;
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: 38px;
-    letter-spacing: 1px;
+    font-size: 32px;
+    letter-spacing: 0;
     text-align: center;
     float: none;
     background: #83b81a;
     color: white;
-    padding: 0 20px;
+    padding: 7px 24px 9px 24px;
     display: inline-block
 }
 
 div#zone2 .main-title-with-link>.main-title span#titre4secteurs {
-    font-family: "bebas_neueregular", arial, sans-serif;
+    font-family: "sofiapro-light", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     position: absolute;
     display: inline-block;
-    font-size: 32px;
+    font-size: 23px;
     background: white;
-    color: #2a2a2a;
+    color: #293a4d;
     margin: 0 auto;
     top: 50px;
     right: 0;
@@ -2153,13 +2157,13 @@ div#zone2 div.filieres .list-grids-with-pagin .grid-la-list {
 div#zone2 .list-grids-with-pagin article {
     margin-bottom: 35px;
     width: 50%;
-    font-family: "bebas_neueregular", arial, sans-serif;
+    font-family: "sofiapro-light", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
 
 .article_list.content266794 .gla-item-title {
-    font-family: "open_sansregular", arial, sans-serif;
+    font-family: "akrobat-regular", arial, sans-serif;
     font-size: 17px;
     line-height: 26px
 }
@@ -2223,14 +2227,14 @@ div#zone2 .list-grids-with-pagin article {
     border-radius: 50px;
     border: 3px solid white;
     text-transform: none;
-    font-family: "open_sansbold", helvetica, arial, sans-serif;
+    font-family: "akrobat-bold", helvetica, arial, sans-serif;
     font-size: 14px;
     margin-top: -24px;
     padding: 13px 30px
 }
 
 .article_list .gla-item-title {
-    color: #2a2a2a;
+    color: #293a4d;
     font-size: 27px;
     line-height: 31px;
     padding: 10px 30px 30px;
@@ -2240,7 +2244,7 @@ div#zone2 .list-grids-with-pagin article {
 
 div#zone2 .list-grids-with-pagin article a,
 div#zone2 .list-grids-with-pagin article a:hover {
-    color: #2a2a2a;
+    color: #293a4d;
     text-decoration: none
 }
 
@@ -2262,14 +2266,14 @@ div#zone2 .filieres .list-grids-with-pagin .gla-item a {
 }
 
 body.front div#zone2 .gla-item>a .gla-item-title {
-    font-family: "bebas_neueregular", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: normal;
-    line-height: 28px;
-    color: #2a2a2a;
-    letter-spacing: 0.6px;
-    font-size: 24px;
+    color: #293a4d;
+    letter-spacing: 0;
+    font-size: 18px;
+    line-height: 22px;
     text-decoration: none;
     -webkit-transition: all 0.2s;
     -o-transition: all 0.2s;
@@ -2290,7 +2294,7 @@ body.front div#zone2 .gla-item>a:hover .gla-item-title {
 div#zone2 div.filieres .gla-item-content {
     text-align: left;
     min-height: 50px;
-    padding: 0 0 0 105px;
+    padding: 0 10px 0 105px;
     background: none;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2380,7 +2384,7 @@ div#zone2 .incontournable article:last-child {
 }
 
 div#zone2 .incontournable article a:hover .gla-item-title {
-    color: #2a2a2a !important
+    color: #293a4d !important
 }
 
 body.front div#zone2 .incontournable h2.gla-item-title {
@@ -2393,7 +2397,7 @@ body.front div#zone2 .incontournable h2.gla-item-title {
     background-repeat: no-repeat;
     background-size: 60px auto;
     height: 60px;
-    font-size: 28px;
+    font-size: 21px;
     font-weight: normal;
     white-space: nowrap;
     overflow: hidden;
@@ -2421,28 +2425,28 @@ div#zone2 .incontournable .gla-item-content {
 }
 
 div#zone2 .incontournable .gla-item-desc {
-    font-family: 'open_sansregular', helvetica, arial, sans-serif;
+    font-family: 'akrobat-regular', helvetica, arial, sans-serif;
     text-align: left;
     font-size: 16px;
     padding-top: 14px;
-    height: 110px
+    height: 90px
 }
 
 div#zone2 .incontournable .gla-item-content .gla-btn-read-more {
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-    font-family: 'open_sansbold';
+    font-family: 'akrobat-bold';
     padding: 11px 22px 13px;
     position: absolute;
     left: 0;
     line-height: normal;
-    margin-top: 115px;
+    margin-top: 100px;
     text-transform: none;
     color: white;
     background: #83b81a;
     border: 0;
-    font-size: 14px;
+    font-size: 17px;
     border-radius: 50px;
     -webkit-box-shadow: 0 15px 25px -15px rgba(0, 0, 0, 0.2);
     box-shadow: 0 15px 25px -15px rgba(0, 0, 0, 0.2)
@@ -2495,12 +2499,12 @@ div#encart-autre li {
     padding: 0 10px;
     display: inline-block;
     border-right: 1px solid #BEBEBE;
-    line-height: 15px;
+    line-height: 11px;
     margin-bottom: 10px
 }
 
 div#encart-autre li a {
-    color: #2a2a2a
+    color: #293a4d
 }
 
 div#encart-autre li a:hover {
@@ -2531,14 +2535,14 @@ div#encart-autre .encart-right a {
     background: url("img/sia2018/home/arrow-bt-vert-right.svg") no-repeat 92% center #fff;
     background-size: 26px auto;
     text-decoration: none;
-    font-family: 'open_sansbold', helvetica, arial, sa, sans-serif;
+    font-family: 'akrobat-bold', helvetica, arial, sa, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
     padding: 12px 60px 12px 20px;
     border-radius: 50px;
     color: #8CAD59;
-    font-size: 14px;
+    font-size: 17px;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease
@@ -2560,9 +2564,9 @@ div#encart-autre .encart-right a:hover {
     background: #e30059;
     color: white;
     display: inline-block;
-    font-size: 38px;
-    padding: 14px 38px;
-    line-height: 43px;
+    font-size: 32px;
+    padding: 13px 38px 20px 38px;
+    line-height: 38px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-transform: translateY(50%);
@@ -2575,22 +2579,22 @@ div#encart-autre .encart-right a:hover {
 #marche-terroir h3 {
     color: white;
     margin: 0;
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 45px;
-    letter-spacing: 1px;
+    letter-spacing: 0;
     text-shadow: 0px 3px 20px rgba(0, 0, 0, 0.3);
     font-weight: normal
 }
 
 #marche-terroir p {
-    font-family: "bebas_neueregular", arial, sans-serif;
+    font-family: "sofiapro-light", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: 35px;
+    font-size: 30px;
+    line-height: 38px;
     text-shadow: 0px 3px 20px rgba(0, 0, 0, 0.3);
-    line-height: 46px;
     margin: 2px 0 30px
 }
 
@@ -2659,14 +2663,14 @@ div#encart-autre .encart-right a:hover {
     background-position: right 25px center;
     background-size: 26px auto;
     text-decoration: none;
-    font-family: 'open_sansbold', helvetica, arial, sa, sans-serif;
+    font-family: 'akrobat-bold', helvetica, arial, sa, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
     padding: 13px 65px 13px 30px;
     border-radius: 50px;
     color: white;
-    font-size: 14px;
+    font-size: 17px;
     -webkit-box-shadow: 0 15px 25px -15px rgba(0, 0, 0, 0.2);
     box-shadow: 0 15px 25px -15px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -2733,14 +2737,14 @@ div.siapro+.quicklinks .btn-primary {
     background-size: 26px auto;
     text-transform: none;
     text-decoration: none;
-    font-family: 'open_sansbold', helvetica, arial, sa, sans-serif;
+    font-family: 'akrobat-bold', helvetica, arial, sa, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
     padding: 15px 65px 15px 30px;
     border-radius: 50px;
     color: white;
-    font-size: 14px;
+    font-size: 17px;
     -webkit-box-shadow: 0 15px 25px -15px rgba(0, 0, 0, 0.2);
     box-shadow: 0 15px 25px -15px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -2763,8 +2767,8 @@ div.siapro h2.main-title span.titresiapro {
     background: #4b2980;
     color: white;
     display: inline-block;
-    padding: 5px 38px;
-    font-size: 38px
+    padding: 5px 38px 8px 38px;
+    font-size: 32px
 }
 
 div.siapro h2.main-title span.soustitresiapro {
@@ -2773,11 +2777,11 @@ div.siapro h2.main-title span.soustitresiapro {
     display: inline-block;
     padding: 5px 38px;
     margin-top: 30px;
-    font-size: 32px;
-    font-family: "bebas_neueregular", arial, sans-serif;
+    font-size: 22px;
+    font-family: "sofiapro-light", arial, sans-serif;
     max-width: 475px;
     padding: 18px 20px;
-    line-height: 36px
+    line-height: 30px
 }
 
 div.siapro .main-title-with-link {
@@ -2801,7 +2805,7 @@ div.siapro .gla-item>a:hover .gla-item-title {
 
 .article_list .gla-item>a:hover .gla-item-title,
 .article_list .gla-item>a:focus .gla-item-title {
-    color: #2a2a2a
+    color: #293a4d
 }
 
 div.siapro .gla-item-title {
@@ -2842,8 +2846,8 @@ div.siapro article.topic_conferences .gla-item-title {
 
 .article .article-navigation .an-item-link {
     background-color: white;
-    color: #2a2a2A;
-    font-family: "bebas_neueregular", arial, sans-serif;
+    color: #293a4d;
+    font-family: "sofiapro-light", arial, sans-serif;
     -webkit-box-shadow: 0 18px 25px -15px rgba(0, 0, 0, 0.1);
     box-shadow: 0 18px 25px -15px rgba(0, 0, 0, 0.1);
     display: -webkit-box;
@@ -2919,8 +2923,8 @@ div#egerie2018 h2 {
     background: #83b81a;
     color: white;
     margin-bottom: 30px;
-    font-size: 38px;
-    padding: 5px 38px;
+    font-size: 34px;
+    padding: 5px 38px 9px 38px;
     display: inline-block;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -2929,13 +2933,13 @@ div#egerie2018 h2 {
 
 div#egerie2018 h3 {
     line-height: 1.2em;
-    color: #2a2a2a;
+    color: #293a4d;
     font-weight: normal;
-    font-family: "bebas_neueregular", arial, sans-serif;
+    font-family: "sofiapro-light", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 32px;
-    letter-spacing: 1px;
+    letter-spacing: 0;
     margin-bottom: 15px
 }
 
@@ -2972,7 +2976,7 @@ div#egerie2018 .bloc-egerie:last-child {
 }
 
 div#egerie2018 .bloc-egerie .content {
-    font-size: 16px;
+    font-size: 19px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3006,14 +3010,14 @@ div#egerie2018 .bloc-egerie a {
     background-position: right 25px center;
     background-size: 26px auto;
     text-decoration: none;
-    font-family: 'open_sansbold', helvetica, arial, sa, sans-serif;
+    font-family: 'akrobat-bold', helvetica, arial, sa, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
     padding: 13px 65px 13px 30px;
     border-radius: 50px;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     -webkit-box-shadow: 0 15px 25px -15px rgba(0, 0, 0, 0.2);
     box-shadow: 0 15px 25px -15px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -3037,7 +3041,7 @@ div#coulisse {
 
 div#coulisse h2 {
     text-align: center;
-    color: #2a2a2a;
+    color: #293a4d;
     font-size: 45px;
     line-height: 1em;
     margin-bottom: 20px
@@ -3046,7 +3050,7 @@ div#coulisse h2 {
 div#coulisse h2 span {
     display: block;
     color: #83b81a;
-    font-family: "bebas_neueregular", arial, sans-serif;
+    font-family: "sofiapro-light", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 32px
@@ -3084,9 +3088,9 @@ div.coulisse-bloc a {
     display: block;
     background: rgba(0, 0, 0, 0.4);
     color: white;
-    font-family: bebas_neuebold;
+    font-family: sofiapro-bold;
     font-size: 26px;
-    letter-spacing: 1px;
+    letter-spacing: 0;
     padding: 15px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3135,14 +3139,14 @@ div#coulisse a.bt-bottom {
     background-position: right 25px center;
     background-size: 26px auto;
     text-decoration: none;
-    font-family: 'open_sansbold', helvetica, arial, sa, sans-serif;
+    font-family: 'akrobat-bold', helvetica, arial, sa, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
     padding: 13px 65px 13px 30px;
     border-radius: 50px;
     color: white;
-    font-size: 14px;
+    font-size: 17px;
     -webkit-box-shadow: 0 15px 25px -15px rgba(0, 0, 0, 0.2);
     box-shadow: 0 15px 25px -15px rgba(0, 0, 0, 0.2);
     z-index: 1
@@ -3189,7 +3193,7 @@ div.visite h2.main-title {
     background: #83b81a;
     color: white;
     font-size: 38px;
-    padding: 5px 38px;
+    padding: 5px 38px 11px 38px;
     display: inline-block
 }
 
@@ -3252,8 +3256,8 @@ div.visite .gla-btn-read-more {
     background-color: #83b81a;
     border-radius: 50px;
     text-transform: none;
-    font-size: 14px;
-    font-family: 'open_sansbold', helvetica, arial, sans-serif;
+    font-size: 17px;
+    font-family: 'akrobat-bold', helvetica, arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     padding: 11px 21px 13px
@@ -3369,11 +3373,11 @@ div#communaute .bloc-communaute {
 
 div#communaute .bloc-communaute strong {
     font-size: 28px;
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    letter-spacing: 1px;
-    color: #2a2a2a
+    letter-spacing: 0;
+    color: #293a4d
 }
 
 div#communaute .bloc-communaute p {
@@ -3425,11 +3429,11 @@ div#communaute .bloc-nl {
 
 div#communaute .bloc-nl strong {
     font-size: 48px;
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    letter-spacing: 1px;
-    color: #2a2a2a;
+    letter-spacing: 0;
+    color: #293a4d;
     line-height: 1.4em
 }
 
@@ -3440,14 +3444,14 @@ div#communaute .bloc-nl a {
     background-position: right 20px center;
     background-size: 26px auto;
     text-decoration: none;
-    font-family: 'open_sansbold', helvetica, arial, sa, sans-serif;
+    font-family: 'akrobat-bold', helvetica, arial, sa, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
     padding: 12px 55px 12px 25px;
     border-radius: 50px;
     color: white;
-    font-size: 12px;
+    font-size: 17px;
     -webkit-box-shadow: 0 15px 25px -15px rgba(0, 0, 0, 0.2);
     box-shadow: 0 15px 25px -15px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -3489,7 +3493,7 @@ div#zone4 .partner {
 }
 
 div#zone4 .partner h2 {
-    color: #2a2a2a;
+    color: #293a4d;
     font-size: 45px;
     margin: 0
 }
@@ -3506,14 +3510,14 @@ div#zone4 .link-view-all {
     background-position: right 25px center;
     background-size: 26px auto;
     text-decoration: none;
-    font-family: 'open_sansbold', helvetica, arial, sa, sans-serif;
+    font-family: 'akrobat-bold', helvetica, arial, sa, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
     padding: 13px 65px 13px 30px;
     border-radius: 50px;
     color: white;
-    font-size: 14px;
+    font-size: 17px;
     -webkit-box-shadow: 0 15px 25px -15px rgba(0, 0, 0, 0.2);
     box-shadow: 0 15px 25px -15px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -3541,7 +3545,7 @@ div#zone4 .pg-item-title {
 }
 
 .front div#zone4 .edito h2 {
-    font-family: "bebas_neueregular", arial, sans-serif
+    font-family: "sofiapro-light", arial, sans-serif
 }
 
 .front div.edito {
@@ -3558,11 +3562,11 @@ div#zone4 .pg-item-title {
 
 .front div.edito h2 {
     width: 465px;
-    padding: 16px 20px;
+    padding: 16px 20px 21px 20px;
     line-height: 1.2em;
     background: white;
-    color: #2a2a2a;
-    font-size: 32px;
+    color: #293a4d;
+    font-size: 28px;
     margin: 0;
     position: absolute;
     left: 50%;
@@ -3590,7 +3594,8 @@ div#zone4 .pg-item-title {
 
 .front div.edito p.style1,
 .front div.edito p.style2 {
-    font-size: 14px
+    font-size: 19px;
+    line-height: 29px
 }
 
 body.espace-exposants div#zone1 div.edito {
@@ -3603,8 +3608,8 @@ body.espace-exposants div#zone1 div.edito {
 div#zone1 .edito h1 {
     color: #215AD6;
     font-size: 64px;
-    letter-spacing: 2px;
-    font-family: "bebas_neuebold", arial, sans-serif;
+    letter-spacing: 0;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     border: 0;
@@ -3618,9 +3623,9 @@ body.espace-exposants div#zone1 .edito h4 {
 }
 
 div#zone1 .edito h4 strong {
-    color: #2a2a2a;
+    color: #293a4d;
     font-size: 32px;
-    font-family: "bebas_neueregular", arial, sans-serif;
+    font-family: "sofiapro-light", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin: 0 0 15px
@@ -3629,7 +3634,7 @@ div#zone1 .edito h4 strong {
 div#zone1 div.edito p {
     margin: 0;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     max-width: 555px;
     margin: 0 auto
 }
@@ -3644,8 +3649,8 @@ div#zone2 div#exposer h2 {
     background: #215AD6;
     color: white;
     display: inline-block;
-    padding: 8px 20px;
-    font-size: 38px;
+    padding: 6px 25px 13px 25px;
+    font-size: 36px;
     margin-top: -40px
 }
 
@@ -3668,7 +3673,7 @@ div#exposant-temoignage {
 
 div#exposant-temoignage h2 {
     font-size: 45px;
-    color: #2a2a2a;
+    color: #293a4d;
     padding: 0;
     margin: 0;
     font-weight: normal
@@ -3677,9 +3682,9 @@ div#exposant-temoignage h2 {
 div#exposant-temoignage p {
     margin-top: 0;
     color: #215AD6;
-    font-family: "bebas_neueregular", helvetica, arial, sans-serif;
-    font-size: 32px;
-    line-height: 38px
+    font-family: "sofiapro-light", helvetica, arial, sans-serif;
+    font-size: 24px;
+    line-height: 32px
 }
 
 div#exposant-temoignage div.temoignage-bloc {
@@ -3710,11 +3715,11 @@ div#exposant-temoignage div.temoignage-bloc a {
     display: block;
     background: rgba(0, 0, 0, 0.3);
     color: white;
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 26px;
-    letter-spacing: 1px
+    letter-spacing: 0
 }
 
 div#exposant-temoignage div.temoignage-bloc p {
@@ -3754,16 +3759,16 @@ div#zone2 div.vos-objectifs .grid-la-list .gla-item:hover {
 }
 
 div#zone2 div.vos-objectifs .grid-la-list .gla-item a .gla-item-title {
-    color: #2a2a2a;
-    font-family: "bebas_neueregular", arial, sans-serif;
+    color: #293a4d;
+    font-family: "sofiapro-light", arial, sans-serif;
     font-weight: normal;
-    font-size: 27px;
+    font-size: 24px;
     padding: 0px 40px 30px;
-    line-height: 32px
+    line-height: 30px
 }
 
 div#zone2 div.vos-objectifs .grid-la-list .gla-item a:hover .gla-item-title {
-    color: #2a2a2a
+    color: #293a4d
 }
 
 div#zone2 div.vos-objectifs .grid-la-list .gla-item:last-child {
@@ -3782,8 +3787,8 @@ div#zone2 div.vos-objectifs .main-title-with-link h2.main-title {
     background: #205ad7;
     color: white;
     display: inline-block;
-    padding: 9px 30px 7px;
-    font-size: 38px;
+    padding: 9px 30px 12px;
+    font-size: 32px;
     margin-top: -40px
 }
 
@@ -3798,7 +3803,7 @@ div#zone2 div.vos-objectifs .list-grids-with-pagin .gla-item a {
 div#zone2 div.vos-objectifs .gla-btn-read-more {
     background: #205ad7;
     text-decoration: none;
-    font-family: open_sansbold;
+    font-family: akrobat-bold;
     display: inline-block;
     padding: 12px 15px;
     border: 3px solid white;
@@ -3829,22 +3834,22 @@ div#zone2 div.votre-univers .list-grids-with-pagin .gla-item a .gla-item-content
     top: 0;
     width: 0;
     height: 100%;
-    background-color: #83b81a;
+    background-color: #f6a924;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease
 }
 
 div#zone2 div.votre-univers .list-grids-with-pagin .gla-item.topic_metiers .gla-item-content::before {
-    background-color: #e30059
-}
-
-div#zone2 div.votre-univers .list-grids-with-pagin .gla-item.topic_elevage .gla-item-content::before {
     background-color: #009cd8
 }
 
+div#zone2 div.votre-univers .list-grids-with-pagin .gla-item.topic_elevage .gla-item-content::before {
+    background-color: #83b81a
+}
+
 div#zone2 div.votre-univers .list-grids-with-pagin .gla-item.topic_produits .gla-item-content::before {
-    background-color: #f6a924
+    background-color: #e30059
 }
 
 div#zone2 div.votre-univers .list-grids-with-pagin .grid-la-list {
@@ -3908,17 +3913,19 @@ div#zone2 div.votre-univers .main-title-with-link h2.main-title span.titrevotreu
     top: -100px;
     background: #205ad7;
     color: white;
-    font-size: 38px;
-    width: 260px
+    font-size: 28px;
+    padding: 11px 10px;
+    width: 280px
 }
 
 div#zone2 div.votre-univers .main-title-with-link h2.main-title span.soustitrevotreunivers {
     background: white;
-    font-family: "bebas_neueregular", arial, sans-serif;
-    color: #2a2a2a;
-    font-size: 32px;
+    font-family: "sofiapro-light", arial, sans-serif;
+    color: #293a4d;
+    font-size: 27px;
     margin-top: -40px;
-    width: 500px
+    width: 616px;
+    padding: 12px 10px
 }
 
 div#zone2 div.votre-univers .cxp-pagination {
@@ -3937,12 +3944,12 @@ div#zone2 div.votre-univers .list-grids-with-pagin article {
 }
 
 div#zone2 div.votre-univers .list-grids-with-pagin article h2 {
-    font-family: "bebas_neueregular", arial, sans-serif;
+    font-family: "sofiapro-light", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: 23px;
+    font-size: 18px;
     font-weight: normal;
-    color: #2a2a2a;
+    color: #293a4d;
     margin: 0;
     padding: 0;
     z-index: 2
@@ -3988,16 +3995,16 @@ div#zone2 div.infos-pratiques {
 }
 
 div#zone2 div.infos-pratiques .block-title {
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     border: 0;
-    letter-spacing: 1px;
+    letter-spacing: 0;
     display: inline-block;
-    padding: 4px 20px;
+    padding: 10px 24px;
     background: #215AD6;
     color: white;
-    font-size: 38px;
+    font-size: 32px;
     margin-top: 0;
     margin-bottom: 45px;
     -webkit-transform: translateY(-50%);
@@ -4049,13 +4056,13 @@ div#zone2 div.infos-pratiques ul.ql-list li:hover::after {
 }
 
 div#zone2 div.infos-pratiques ul.ql-list li a.btn-primary {
-    font-size: 18px;
+    font-size: 15px;
     background-color: transparent;
-    color: #2a2a2a;
-    font-family: "bebas_neuebold", arial, sans-serif;
+    color: #293a4d;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    letter-spacing: 1px;
+    letter-spacing: 0;
     text-align: left;
     font-weight: normal;
     height: 90px;
@@ -4152,8 +4159,8 @@ div#zone2 div#bloc-expo-catalogue h2 {
 }
 
 div#zone2 div#bloc-expo-catalogue h2 span {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 22px;
+    line-height: 26px;
     display: block
 }
 
@@ -4163,14 +4170,14 @@ div#zone2 div#bloc-expo-catalogue a {
     background: url(img/sia2018/home/arrow-bt-bleu.svg) no-repeat right 20px center #fff;
     background-size: 24px auto;
     text-decoration: none;
-    font-family: 'open_sansbold', helvetica, arial, sa, sans-serif;
+    font-family: 'akrobat-bold', helvetica, arial, sa, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
     padding: 10px 53px 10px 20px;
     border-radius: 50px;
     color: #215AD6;
-    font-size: 12px;
+    font-size: 16px;
     -webkit-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease
@@ -4198,8 +4205,8 @@ div#dates-cles h2 {
     background: #215AD6;
     color: white;
     display: inline-block;
-    padding: 4px 20px;
-    font-size: 38px;
+    padding: 10px 25px;
+    font-size: 32px;
     margin-top: 0px;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -4239,10 +4246,10 @@ div#dates-cles .content-left {
 
 div#dates-cles .bloc-content h3 {
     color: #215AD6;
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    letter-spacing: 1px;
+    letter-spacing: 0;
     font-weight: normal;
     margin: 0 0 10px 0;
     padding: 0;
@@ -4257,15 +4264,15 @@ body.espace-exposants div#dates-cles .bloc-content h3 {
 body.espace-exposants div#dates-cles .bloc-content h4 {
     margin: 0 0 8px 0;
     font-size: 28px;
-    letter-spacing: 1px
+    letter-spacing: 0
 }
 
 div#dates-cles .bloc-content h4 {
-    color: #2a2a2a;
-    font-family: "bebas_neuebold", arial, sans-serif;
+    color: #293a4d;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    letter-spacing: 1px;
+    letter-spacing: 0;
     margin: 0;
     padding: 0;
     font-size: 24px;
@@ -4276,8 +4283,8 @@ div#dates-cles .bloc-content h4 {
 div#dates-cles .bloc-content p {
     margin: 0;
     padding: 0;
-    font-size: 16px;
-    line-height: 24px
+    font-size: 21px;
+    line-height: 27px
 }
 
 div#dates-cles p.picto {
@@ -4357,11 +4364,11 @@ body.visiteur-pro div#zone1 .edito {
 }
 
 body.visiteur-pro div#zone1 .edito h2 {
-    color: #872b90;
+    color: #4b2980;
     background: none;
     font-size: 64px;
-    letter-spacing: 2px;
-    font-family: "bebas_neuebold", arial, sans-serif;
+    letter-spacing: 0;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     border: 0;
@@ -4376,7 +4383,7 @@ body.visiteur-pro div#zone1 .edito h2 {
 
 body.visiteur-pro div#zone1 .edito p {
     margin: 0;
-    font-size: 16px;
+    font-size: 19px;
     text-align: left;
     width: 48%;
     display: block
@@ -4384,10 +4391,10 @@ body.visiteur-pro div#zone1 .edito p {
 
 body.visiteur-pro div#zone1 .edito p.style1 {
     text-align: right;
-    font-family: "bebas_neueregular", arial, sans-serif;
+    font-family: "sofiapro-light", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    letter-spacing: 1px;
+    letter-spacing: 0;
     font-size: 32px;
     line-height: 40px
 }
@@ -4441,24 +4448,24 @@ div#zone2 div.contenus-dedies .main-title-with-link h2.main-title span {
 
 div#zone2 div.contenus-dedies .main-title-with-link h2.main-title span.titrecequivousattend {
     top: -84px;
-    background: #872b90;
+    background: #4b2980;
     color: white;
     display: inline-block;
     position: relative;
-    font-size: 38px
+    font-size: 36px
 }
 
 div#zone2 div.contenus-dedies .main-title-with-link h2.main-title span.soustitrecequivousattends {
-    font-family: "bebas_neueregular", arial, sans-serif;
+    font-family: "sofiapro-light", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: normal;
     background: white;
-    color: #2a2a2a;
-    font-size: 32px;
+    color: #293a4d;
+    font-size: 22px;
     margin-top: -60px;
     max-width: 480px;
-    line-height: 36px;
+    line-height: 30px;
     padding: 13px 23px
 }
 
@@ -4510,11 +4517,11 @@ div#zone2 div.contenus-dedies article .gla-item-btn {
 }
 
 .visiteur-pro div#zone2 div.contenus-dedies article a .gla-item-title {
-    color: #2a2a2a
+    color: #293a4d
 }
 
 .visiteur-pro div#zone2 div.contenus-dedies article:hover a .gla-item-title {
-    color: #2a2a2a
+    color: #293a4d
 }
 
 div#zone2 div.titre-serenite {
@@ -4524,23 +4531,23 @@ div#zone2 div.titre-serenite {
 
 div#zone2 div.titre-serenite h2 {
     display: inline-block;
-    padding: 6px 30px 4px;
-    background: #872b90;
+    padding: 6px 30px 12px;
+    background: #4b2980;
     color: white;
     font-size: 38px;
     margin-bottom: 22px
 }
 
 div#zone2 div.titre-serenite h3 {
-    font-family: "bebas_neueregular", arial, sans-serif;
+    font-family: "sofiapro-light", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    letter-spacing: 1px;
+    letter-spacing: 0;
     display: inline-block;
     padding: 7px 28px 6px;
     background: white;
-    color: #2a2a2a;
-    font-size: 32px;
+    color: #293a4d;
+    font-size: 27px;
     font-weight: normal
 }
 
@@ -4594,13 +4601,13 @@ div#zone2 div.serenite ul.ql-list li:hover::after {
 }
 
 div#zone2 div.serenite ul.ql-list li a.btn-primary {
-    font-size: 18px;
+    font-size: 14px;
     background-color: white;
-    color: #2a2a2a;
-    font-family: "bebas_neuebold", arial, sans-serif;
+    color: #293a4d;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    letter-spacing: 1px;
+    letter-spacing: 0;
     text-align: left;
     height: 90px;
     display: -webkit-box;
@@ -4659,19 +4666,19 @@ div#zone2 div.serenite ul.ql-list li.linkid309374 a:hover {
 }
 
 div#zone2 div#bloc-expo-catalogue.pro .catalogue {
-    background: #89298d
+    background: #4b2980
 }
 
 div#zone2 div#bloc-expo-catalogue.pro a {
     background: url(img/sia2018/home/arrow-bt-violet.svg) no-repeat right 20px center #fff;
-    color: #89298d;
+    color: #4b2980;
     background-size: 24px auto
 }
 
 div#dates-cles.visiteur h2 {
     background: white;
-    color: #2a2a2a;
-    font-family: "bebas_neueregular", arial, sans-serif;
+    color: #293a4d;
+    font-family: "sofiapro-light", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: normal;
@@ -4685,7 +4692,7 @@ div#dates-cles.visiteur .bloc-content {
 }
 
 div#dates-cles.visiteur .bloc-content h3 {
-    color: #2A2A2A
+    color: #293a4d
 }
 
 div#dates-cles.visiteur .bloc-content h3 span {
@@ -4693,7 +4700,7 @@ div#dates-cles.visiteur .bloc-content h3 span {
 }
 
 div#communaute.communaute-alone.visiteur .bloc-communaute h2 {
-    color: #89298d
+    color: #4b2980
 }
 
 body.espace-exposants div#communaute.communaute-alone.visiteur .bloc-communaute h2 {
@@ -4725,19 +4732,18 @@ div#communaute.communaute-alone.visiteur {
 .contenus-dedies .grid-la-list article[class*="topic_"] .gla-item-title,
 .siapro .grid-la-list article[class*="topic_"] .gla-item-title {
     font-weight: normal;
-    font-size: 1.5em;
     padding-top: 80px;
     margin-top: -30px;
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: 25px;
+    font-size: 22px;
     padding-top: 78px;
     margin-top: -33px
 }
 
 div#zone2 [class*="topic_"]>a .gla-item-title {
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
@@ -4807,14 +4813,14 @@ div.slider-wrapper .fixed-content a {
     background-position: right 25px center;
     background-size: 26px auto;
     text-decoration: none;
-    font-family: 'open_sansbold', helvetica, arial, sa, sans-serif;
+    font-family: 'akrobat-bold', helvetica, arial, sa, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
     padding: 13px 65px 13px 30px;
     border-radius: 50px;
     color: white;
-    font-size: 14px;
+    font-size: 17px;
     -webkit-box-shadow: 0 15px 25px -15px rgba(0, 0, 0, 0.2);
     box-shadow: 0 15px 25px -15px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -4847,7 +4853,7 @@ div.slider-wrapper .bx-wrapper .bx-pager.bx-default-pager a {
 }
 
 div.slider-wrapper .bx-wrapper .bx-pager.bx-default-pager a.active {
-    background: #89298d
+    background: #4b2980
 }
 
 div#slider-exposant.slider-wrapper .fixed-content a {
@@ -4870,9 +4876,9 @@ div#slider-exposant.slider-wrapper .bx-wrapper .bx-pager.bx-default-pager a.acti
 
 .article-wrapper,
 .article-wrapper p {
-    font-family: 'open_sansregular', helvetica, arial, sans-serif;
+    font-family: 'akrobat-regular', helvetica, arial, sans-serif;
     font-size: 16px;
-    color: #2a2a2a;
+    color: #293a4d;
     line-height: 28px
 }
 
@@ -4952,7 +4958,7 @@ div#slider-exposant.slider-wrapper .bx-wrapper .bx-pager.bx-default-pager a.acti
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-    font-family: 'open_sansbold';
+    font-family: 'akrobat-bold';
     display: inline-block;
     padding: 11px 22px 13px;
     line-height: normal;
@@ -4988,11 +4994,11 @@ div#slider-exposant.slider-wrapper .bx-wrapper .bx-pager.bx-default-pager a.acti
 body.sitemap h1,
 .partner h1,
 .article-wrapper .at-content h1 {
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 50px;
-    letter-spacing: 1px;
+    letter-spacing: 0;
     text-align: center;
     background: #83b81a;
     color: white;
@@ -5010,7 +5016,7 @@ body.sitemap h1,
     text-align: center;
     margin-bottom: 12px;
     font-size: 40px;
-    font-family: "bebas_neuebold";
+    font-family: "sofiapro-bold";
     margin-top: 17px !important
 }
 
@@ -5029,7 +5035,7 @@ body.sitemap h1,
 }
 
 .article-wrapper .article-intro p strong {
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     font-weight: normal
 }
 
@@ -5051,7 +5057,7 @@ body.sitemap h1,
 
 .article-wrapper .article-intro p {
     background-color: white;
-    font-family: "bebas_neueregular", arial, sans-serif;
+    font-family: "sofiapro-light", arial, sans-serif;
     font-size: 32px;
     font-weight: normal;
     text-align: center;
@@ -5063,7 +5069,7 @@ body.sitemap h1,
 .article-wrapper .article-content h2,
 .article-wrapper .article-content h2 strong {
     color: #83b81a;
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: normal;
@@ -5075,8 +5081,8 @@ body.sitemap h1,
 
 .article-wrapper .article-content h3,
 .article-wrapper .article-content h3 strong {
-    color: #2a2a2a;
-    font-family: "bebas_neuebold", arial, sans-serif;
+    color: #293a4d;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: normal;
@@ -5086,8 +5092,8 @@ body.sitemap h1,
 }
 
 .article-wrapper .article-content h4 {
-    color: #2a2a2a;
-    font-family: 'open_sansbold', helvetica, arial, sans-serif;
+    color: #293a4d;
+    font-family: 'akrobat-bold', helvetica, arial, sans-serif;
     text-decoration: underline;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -5097,8 +5103,8 @@ body.sitemap h1,
 }
 
 .article-wrapper .article-content h5 {
-    color: #2a2a2a;
-    font-family: 'open_sansbold', helvetica, arial, sans-serif;
+    color: #293a4d;
+    font-family: 'akrobat-bold', helvetica, arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: normal;
@@ -5127,7 +5133,7 @@ body.sitemap h1,
     background-position: right 25px center;
     background-size: 26px auto;
     text-decoration: none;
-    font-family: 'open_sansbold', helvetica, arial, sa, sans-serif;
+    font-family: 'akrobat-bold', helvetica, arial, sa, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -5168,7 +5174,7 @@ body.sitemap h1,
     border: 1px solid #83b81a;
     border-radius: 40px;
     font-size: 12px;
-    font-family: 'open_sansbold', helvetica, arial, sans-serif;
+    font-family: 'akrobat-bold', helvetica, arial, sans-serif;
     margin-bottom: 10px
 }
 
@@ -5180,8 +5186,8 @@ body.espace-exposants .article-wrapper .article-content .focus1 .externe:hover,
 }
 
 body.visiteur-pro .article-wrapper .article-content .focus1 .externe {
-    color: #89298d;
-    border: 1px solid #89298d
+    color: #4b2980;
+    border: 1px solid #4b2980
 }
 
 body.espace-exposants .article-wrapper .article-content .focus1 .externe {
@@ -5195,7 +5201,7 @@ body.espace-exposants .article-wrapper .article-content .focus1 a.lien1.externe 
 }
 
 body.visiteur-pro .article-wrapper .article-content .focus1 a.lien1.externe:hover {
-    color: #89298d
+    color: #4b2980
 }
 
 body.espace-exposants .article-wrapper .article-content .focus1 a.lien1.externe:hover {
@@ -5211,11 +5217,11 @@ body.espace-exposants .article-wrapper .article-content a.lien1:hover {
 body.visiteur-pro .article-wrapper .article-content a.lien1:hover {
     background-image: url(img/sia2018/home/arrow-bt-violet.svg);
     background-color: white;
-    color: #89298d
+    color: #4b2980
 }
 
 body.visiteur-pro .article-wrapper .article-content a.lien1 {
-    background-color: #89298d;
+    background-color: #4b2980;
     color: white
 }
 
@@ -5225,14 +5231,14 @@ body.espace-exposants .article-wrapper .article-content a.lien1 {
 }
 
 .article-wrapper .article-content a.lien2 {
-    color: #2a2a2a;
+    color: #293a4d;
     text-decoration: none;
     display: inline-block;
     padding: 10px 25px;
     border: 1px solid #DDDDDD;
     border-radius: 40px;
     font-size: 12px;
-    font-family: 'open_sansregular', helvetica, arial, sans-serif;
+    font-family: 'akrobat-regular', helvetica, arial, sans-serif;
     margin-bottom: 10px
 }
 
@@ -5248,7 +5254,7 @@ body.espace-exposants .article-wrapper .article-content a.lien1 {
 
 .article-wrapper .article-content a.lien4 {
     background-color: white;
-    color: #2a2a2a;
+    color: #293a4d;
     display: inline-block;
     text-decoration: none;
     padding: 18px 22px;
@@ -5291,7 +5297,7 @@ body.espace-exposants .article-wrapper .article-content a.lien1 {
     color: white;
     display: inline-block;
     padding: 12px 17px;
-    font-family: 'open_sansbold', helvetica, arial, sans-serif;
+    font-family: 'akrobat-bold', helvetica, arial, sans-serif;
     margin-top: 20px;
     font-size: 18px;
     margin-bottom: 10px
@@ -5310,7 +5316,7 @@ body.espace-exposants .article-wrapper .article-content .important1 {
 }
 
 body.visiteur-pro .article-wrapper .article-content .important1 {
-    background: #89298d
+    background: #4b2980
 }
 
 .article-content blockquote {
@@ -5330,7 +5336,7 @@ body.visiteur-pro .article-wrapper .article-content .important1 {
     color: #929292;
     font-style: normal;
     font-size: 14px;
-    font-family: 'open_sansregular', helvetica, arial, sans-serif;
+    font-family: 'akrobat-regular', helvetica, arial, sans-serif;
     padding: 0;
     margin: 15px 0 0 0;
     background-color: transparent !important;
@@ -5366,7 +5372,7 @@ body.visiteur-pro .article-wrapper .article-content .important1 {
 }
 
 .article-wrapper .article-content figure small {
-    font-family: 'open_sansregular', helvetica, arial, sans-serif;
+    font-family: 'akrobat-regular', helvetica, arial, sans-serif;
     font-style: italic;
     color: #939393;
     text-align: center;
@@ -5435,11 +5441,11 @@ body.visiteur-pro .article-wrapper .article-content .important1 {
 }
 
 .article-wrapper .cl-item .cl-item-title.h3-like {
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 26px;
-    color: #2a2a2a;
+    color: #293a4d;
     font-weight: normal;
     padding: 0;
     margin: 20px 0 0
@@ -5447,9 +5453,9 @@ body.visiteur-pro .article-wrapper .article-content .important1 {
 
 .article-wrapper .cl-item p.cl-item-subtitle {
     width: 100%;
-    font-family: open_sansregular;
+    font-family: akrobat-regular;
     font-size: 14px;
-    color: #2a2a2a;
+    color: #293a4d;
     font-style: italic;
     text-transform: none;
     font-weight: normal;
@@ -5510,7 +5516,7 @@ body.visiteur-pro .article-wrapper .article-content .important1 {
 
 [class^="btn"],
 .btn {
-    font-family: 'open_sansbold', helvetica, arial, sans-serif
+    font-family: 'akrobat-bold', helvetica, arial, sans-serif
 }
 
 .block-page .inside {
@@ -5560,8 +5566,8 @@ body.catalogue #main::before {
 }
 
 body.catalogue {
-    font-family: 'open_sansregular', helvetica, arial, sans-serif;
-    color: #2a2a2a
+    font-family: 'akrobat-regular', helvetica, arial, sans-serif;
+    color: #293a4d
 }
 
 .catalogue h1 {
@@ -5571,7 +5577,7 @@ body.catalogue {
     background-color: #83b81a;
     padding: 2rem 4rem;
     display: inline-block;
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
@@ -5589,7 +5595,7 @@ body.catalogue {
 .catalogue .esf-intro-title {
     color: #83b81a;
     font-size: 36px;
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
@@ -5604,7 +5610,7 @@ body.catalogue {
     border-radius: 0;
     -webkit-box-shadow: 0 25px 40px -20px rgba(0, 0, 0, 0.2);
     box-shadow: 0 25px 40px -20px rgba(0, 0, 0, 0.2);
-    font-family: 'open_sansregular', helvetica, arial, sans-serif;
+    font-family: 'akrobat-regular', helvetica, arial, sans-serif;
     margin-bottom: 55px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
@@ -5697,7 +5703,7 @@ body.catalogue {
     background-color: #83b81a;
     font-size: 14px;
     text-transform: none;
-    font-family: 'open_sansbold', helvetica, arial, sans-serif;
+    font-family: 'akrobat-bold', helvetica, arial, sans-serif;
     padding: 0 5px 0 0;
     border: 1px solid #83b81a
 }
@@ -5720,7 +5726,7 @@ body.catalogue {
 }
 
 .mod-catal.exhibitor-search-form a {
-    color: #2a2a2a
+    color: #293a4d
 }
 
 .mod-catal.exhibitor-search-form a:hover {
@@ -5728,7 +5734,7 @@ body.catalogue {
 }
 
 .mod-catal .esf-search-plus::after {
-    color: #2a2a2a;
+    color: #293a4d;
     -webkit-transition: all 0.25s ease;
     -o-transition: all 0.25s ease;
     transition: all 0.25s ease
@@ -5741,10 +5747,10 @@ body.catalogue {
 .mod-catal .esf-as-header {
     width: 100%;
     background-color: #F8F8F8;
-    font-family: "bebas_neueregular", arial, sans-serif;
+    font-family: "sofiapro-light", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #2A2A2A;
+    color: #293a4d;
     outline: none;
     border-top: 1px solid #E2E2E2;
     border-right: 1px solid #E2E2E2;
@@ -5780,7 +5786,7 @@ body.catalogue {
 
 .mod-catal .esf-as-header p {
     font-size: 20px;
-    letter-spacing: 1px;
+    letter-spacing: 0;
     margin: 0 8px;
     font-weight: normal
 }
@@ -5826,7 +5832,7 @@ body.catalogue {
 }
 
 .mod-catal .esf-as-af-filters .icon-catal-cross {
-    color: #2a2a2a
+    color: #293a4d
 }
 
 .mod-catal .esf-as-af-filters>span .esf-tag-filter-remove:hover .icon-catal-cross {
@@ -5847,23 +5853,23 @@ body.catalogue {
 .mod-catal .esf-as-list-filters a {
     padding: 12px 18px;
     font-size: 14px;
-    font-family: 'open_sansbold', helvetica, arial, sans-serif
+    font-family: 'akrobat-bold', helvetica, arial, sans-serif
 }
 
 .mod-catal .esf-as-list-filters a:hover {
     background-color: #ececec;
-    color: #2a2a2a
+    color: #293a4d
 }
 
 .mod-catal .current .esf-as-count,
 .mod-catal .esf-as-count {
     opacity: .6;
     font-size: 12px;
-    font-family: 'open_sansregular', helvetica, arial, sans-serif
+    font-family: 'akrobat-regular', helvetica, arial, sans-serif
 }
 
 .mod-catal .esf-as-count {
-    color: #2a2a2a
+    color: #293a4d
 }
 
 .mod-catal .esf-tree li:hover {
@@ -5876,7 +5882,7 @@ body.catalogue {
 
 .mod-catal .esf-as-heading {
     font-size: 14px;
-    font-family: 'open_sansbold', helvetica, arial, sans-serif;
+    font-family: 'akrobat-bold', helvetica, arial, sans-serif;
     padding: 14px 18px
 }
 
@@ -5904,14 +5910,14 @@ body.catalogue {
 .mod-catal .esf-as-heading .esf-remove-filters {
     border-radius: 50px;
     color: #7f7f7f;
-    font-family: 'open_sansregular', helvetica, arial, sans-serif;
+    font-family: 'akrobat-regular', helvetica, arial, sans-serif;
     font-size: 10px;
     padding: 6px 10px;
     margin-top: 5px
 }
 
 .mod-catal .esf-as-heading .icon-catal-cross {
-    color: #2a2a2a;
+    color: #293a4d;
     font-size: 8px;
     margin-left: 6px;
     vertical-align: 0rem
@@ -5923,7 +5929,7 @@ body.catalogue {
 
 .mod-catal .esf-sublvl-heading .esf-back-to-prev-lvl {
     font-size: 10px;
-    font-family: 'open_sansbold', helvetica, arial, sans-serif;
+    font-family: 'akrobat-bold', helvetica, arial, sans-serif;
     outline: none
 }
 
@@ -5933,7 +5939,7 @@ body.catalogue {
 
 .mod-catal .esf-sublvl-heading .esf-back-to-prev-lvl .icon-catal-arrow-left {
     border-radius: 50px;
-    color: #2a2a2a;
+    color: #293a4d;
     border-color: #e2e2e2;
     width: 22px;
     height: 22px;
@@ -5957,7 +5963,7 @@ body.catalogue {
 }
 
 .mod-catal .esf-sublvl-heading .esf-back-to-prev-lvl .icon-catal-arrow-left::before {
-    color: #2a2a2a
+    color: #293a4d
 }
 
 .mod-catal .esf-results-zone .esf-results-alpha-list .current {
@@ -5976,7 +5982,7 @@ body.catalogue {
 
 .mod-catal .esf-tree .esf-has-sub-items>.esf-choice-container .esf-next-lvl::after {
     border-radius: 50px;
-    color: #2a2a2a;
+    color: #293a4d;
     line-height: 1.8;
     height: 22px;
     width: 22px;
@@ -5998,7 +6004,7 @@ body.catalogue {
 
 .mod-catal .esf-results-zone .esf-results-alpha-list li {
     margin: 0 2px;
-    font-family: open_sansregular
+    font-family: akrobat-regular
 }
 
 .mod-catal .esf-results-zone .esf-results-alpha-filter {
@@ -6032,7 +6038,7 @@ body.catalogue {
 }
 
 .mod-catal .catal-ex-item-title {
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     font-size: 34px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -6061,8 +6067,8 @@ body.catalogue {
 .mod-catal .btn-primary {
     border: 1px solid #ddd;
     background-color: transparent;
-    font-family: 'open_sansbold', helvetica, arial, sans-serif;
-    color: #2a2a2a;
+    font-family: 'akrobat-bold', helvetica, arial, sans-serif;
+    color: #293a4d;
     border-radius: 50px;
     font-size: 12px;
     text-transform: none
@@ -6092,7 +6098,7 @@ body.catalogue {
 .mod-catal .catal-ex-item-buttons .btn-primary::after,
 .mod-catal .catal-ex-item-buttons-small .btn-primary::after {
     content: "+";
-    font-family: 'open_sansregular', helvetica, arial, sans-serif;
+    font-family: 'akrobat-regular', helvetica, arial, sans-serif;
     display: block;
     position: absolute;
     right: 10px;
@@ -6147,8 +6153,8 @@ body.catalogue {
 .mod-catal .catal-ex-item-cat-title,
 .mod-catal .catal-ex-item-cat-more-link {
     text-align: left;
-    font-family: "open_sansbold", arial, helvetica, sans-serif;
-    color: #2a2a2a;
+    font-family: "akrobat-bold", arial, helvetica, sans-serif;
+    color: #293a4d;
     line-height: 18px;
     margin-bottom: 5px
 }
@@ -6198,7 +6204,7 @@ body.catalogue {
     -webkit-box-shadow: 0 6px 15px -9px rgba(0, 0, 0, 0.3);
     box-shadow: 0 6px 15px -9px rgba(0, 0, 0, 0.3);
     text-decoration: none;
-    font-family: "bebas_neueregular", arial, sans-serif;
+    font-family: "sofiapro-light", arial, sans-serif;
     font-weight: normal;
     padding: 8px 0;
     font-size: 16px;
@@ -6512,7 +6518,7 @@ body.catalogue {
 }
 
 .mod-catal .catal-ex-item-title a {
-    color: #2a2a2a
+    color: #293a4d
 }
 
 .mod-catal .catal-ex-item-stand-item .icon-catal {
@@ -6521,7 +6527,7 @@ body.catalogue {
 }
 
 .mod-catal .catal-ex-item-stand-item {
-    font-family: 'open_sansbold', helvetica, arial, sans-serif
+    font-family: 'akrobat-bold', helvetica, arial, sans-serif
 }
 
 .mod-catal.catal-pr-details .edito .catal-pr-item-buttons {
@@ -6545,7 +6551,7 @@ body.catalogue {
 
 .mod-catal.catal-pr-details .edito .btn-primary::after {
     content: "+";
-    font-family: 'open_sansregular', helvetica, arial, sans-serif;
+    font-family: 'akrobat-regular', helvetica, arial, sans-serif;
     display: block;
     position: absolute;
     right: 10px;
@@ -6568,7 +6574,7 @@ body.catalogue {
 .mod-catal.catal-pr-details .edito .catal-pr-ex-name {
     margin: -15px 0 0 0;
     font-size: 36px;
-    font-family: "bebas_neueregular", helvetica, arial, sans-serif
+    font-family: "sofiapro-light", helvetica, arial, sans-serif
 }
 
 .mod-catal.catal-pr-details .edito .catal-pr-ex-name a span {
@@ -6613,7 +6619,7 @@ body.catalogue {
 
 .mod-catal h2,
 .mod-catal .h2-like {
-    font-family: "bebas_neuebold", arial, sans-serif
+    font-family: "sofiapro-bold", arial, sans-serif
 }
 
 .mod-catal .catal-ed-main .catal-ed-main-desc-content {
@@ -6650,7 +6656,7 @@ body.catalogue {
     text-transform: none;
     padding: 16px;
     border: 0 none;
-    font-family: 'open_sansregular', helvetica, arial, sans-serif;
+    font-family: 'akrobat-regular', helvetica, arial, sans-serif;
     border-radius: 0;
     font-size: 14px;
     text-decoration: underline
@@ -6673,7 +6679,7 @@ body.catalogue {
 .mod-catal .icon-catal-chevrons:before {
     content: "›";
     font-size: 25px;
-    font-family: "open_sansregular", helvetica, arial, sans-serif !important
+    font-family: "akrobat-regular", helvetica, arial, sans-serif !important
 }
 
 .mod-catal.catal-nav-ex {
@@ -6692,7 +6698,7 @@ body.catalogue {
 }
 
 .mod-catal.catal-nav-ex .catal-nav-ex-link {
-    font-family: 'open_sansbold', helvetica, arial, sans-serif;
+    font-family: 'akrobat-bold', helvetica, arial, sans-serif;
     padding: 15px 10px 15px 40px;
     background-color: white;
     border-radius: 50px;
@@ -6711,7 +6717,7 @@ body.catalogue {
 }
 
 .mod-catal.catal-nav-ex .catal-nav-ex-link span {
-    color: #2a2a2a
+    color: #293a4d
 }
 
 .mod-catal.catal-nav-ex .catal-nav-ex-link:focus,
@@ -6746,7 +6752,7 @@ body.catalogue {
 }
 
 .mod-catal.catal-nav-ex .catal-nav-ex-more-link {
-    color: #2a2a2a;
+    color: #293a4d;
     padding: 9px;
     line-height: 30px
 }
@@ -6758,8 +6764,8 @@ body.catalogue {
     vertical-align: middle;
     vertical-align: -8px;
     margin-right: 7px;
-    color: #2a2a2a;
-    font-family: 'open_sansregular', helvetica, arial, sans-serif
+    color: #293a4d;
+    font-family: 'akrobat-regular', helvetica, arial, sans-serif
 }
 
 .mod-catal.catal-nav-ex .catal-nav-ex-more-link:focus,
@@ -6791,7 +6797,7 @@ body.catalogue {
 }
 
 .mod-catal .catal-ed-main .catal-ed-main-stand-title {
-    color: #2a2a2a;
+    color: #293a4d;
     margin: 0;
     line-height: 20px;
     padding: 0;
@@ -6828,7 +6834,7 @@ body.catalogue {
     font-size: 24px;
     line-height: 28px;
     margin: 0;
-    font-family: 'open_sansbold', helvetica, arial, sans-serif
+    font-family: 'akrobat-bold', helvetica, arial, sans-serif
 }
 
 .mod-catal .catal-ed-main .catal-ed-main-media {
@@ -6842,8 +6848,8 @@ body.catalogue {
 .mod-catal .catal-ed-products .catal-edp-title {
     font-size: 18px;
     text-transform: lowercase;
-    color: #2a2a2a;
-    font-family: 'open_sansbold', helvetica, arial, sans-serif;
+    color: #293a4d;
+    font-family: 'akrobat-bold', helvetica, arial, sans-serif;
     padding-bottom: 16px;
     margin: 0 0 12px 0
 }
@@ -6903,7 +6909,7 @@ body.catalogue {
 
 .mod-catal .catal-ed-products .catal-edp-stand-item {
     margin-left: 5px;
-    font-family: 'open_sansbold', helvetica, arial, sans-serif;
+    font-family: 'akrobat-bold', helvetica, arial, sans-serif;
     font-size: 14px
 }
 
@@ -6914,7 +6920,7 @@ body.catalogue {
 .mod-catal .catal-ed-brands .catal-ed-brands-link {
     padding: 0;
     font-size: 15px;
-    color: #2a2a2a
+    color: #293a4d
 }
 
 .mod-catal .catal-ed-brands .catal-ed-brands-img {
@@ -6998,7 +7004,7 @@ body.catalogue {
 .mod-catal .catal-prd-main-title,
 .mod-catal .catal-ed-main-title {
     background-color: white;
-    color: #2a2a2a;
+    color: #293a4d;
     font-size: 29px;
     line-height: 29px;
     padding: 13px 26px
@@ -7039,18 +7045,18 @@ body.catalogue {
 }
 
 .mod-catal .catal-prd-main .catal-prd-main-price-current {
-    color: #2a2a2a;
+    color: #293a4d;
     font-size: 50px;
-    letter-spacing: 1px;
+    letter-spacing: 0;
     line-height: 30px;
-    font-family: "bebas_neuebold", helvetica, arial, sans-serif
+    font-family: "sofiapro-bold", helvetica, arial, sans-serif
 }
 
 .mod-catal .catal-prd-main .catal-prd-main-price-old {
     font-size: 22px;
-    color: #2a2a2a;
+    color: #293a4d;
     font-style: italic;
-    font-family: "bebas_neueregular", helvetica, arial, sans-serif
+    font-family: "sofiapro-light", helvetica, arial, sans-serif
 }
 
 .mod-catal .catal-prd-main .catal-prd-main-price-rebate {
@@ -7062,7 +7068,7 @@ body.catalogue {
 
 .mod-catal .catal-prd-main .catal-prd-main-brand .catal-prd-main-brand-link {
     font-size: 18px;
-    font-family: "open_sansregular", helvetica, arial, sans-serif
+    font-family: "akrobat-regular", helvetica, arial, sans-serif
 }
 
 .mod-catal .catal-prd-main .catal-prd-main-brand .catal-prd-main-brand-link:hover {
@@ -7098,7 +7104,7 @@ body.catalogue {
 }
 
 .mod-catal .catal-prd-url .icon-catal {
-    color: #2a2a2a
+    color: #293a4d
 }
 
 .mod-catal .catal-prd-title {
@@ -7107,8 +7113,8 @@ body.catalogue {
     font-size: 26px;
     letter-spacing: 0;
     font-weight: bold;
-    color: #2a2a2a;
-    font-family: "bebas_neuebold", helvetica, arial, sans-serif
+    color: #293a4d;
+    font-family: "sofiapro-bold", helvetica, arial, sans-serif
 }
 
 .mod-catal .catal-prd-exhibitor .catal-prd-exhibitor-view .icon-catal,
@@ -7144,9 +7150,9 @@ body.catalogue {
 .mod-catal .catal-ed-activity .catal-ed-activity-title {
     width: 15%;
     line-height: 34px;
-    color: #2A2A2A;
+    color: #293a4d;
     font-size: 15px;
-    font-family: 'open_sansbold', helvetica, arial, sans-serif
+    font-family: 'akrobat-bold', helvetica, arial, sans-serif
 }
 
 .mod-catal .catal-ed-activity .catal-ed-activity-subtitle,
@@ -7190,7 +7196,7 @@ body.catalogue {
 .mod-catal.catal-other-ex .catal-other-prd-txt,
 .mod-catal.catal-other-prd .catal-other-prd-txt {
     font-size: 26px;
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     padding: 0 20px;
@@ -7207,7 +7213,7 @@ body.catalogue {
 }
 
 .pagination .icon {
-    color: #2a2a2a
+    color: #293a4d
 }
 
 .pagin-item.pagin-next .icon {
@@ -7223,12 +7229,12 @@ body.catalogue {
 
 .pagin-item {
     background: white;
-    font-family: 'open_sansbold', helvetica, arial, sans-serif;
+    font-family: 'akrobat-bold', helvetica, arial, sans-serif;
     font-size: 12px
 }
 
 .pagin-item a {
-    color: #2a2a2a;
+    color: #293a4d;
     padding: 8px 0;
     width: 34px;
     text-align: center
@@ -7257,7 +7263,7 @@ body.catalogue {
 
 .pagin-item.pagin-next a i::before {
     content: "›";
-    font-family: 'open_sansregular', helvetica, arial, sans-serif;
+    font-family: 'akrobat-regular', helvetica, arial, sans-serif;
     vertical-align: -1px
 }
 
@@ -7276,11 +7282,11 @@ div.prefooter h3 {
     margin: 0 auto;
     font-size: 24px;
     font-weight: normal;
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    letter-spacing: 1px;
-    color: #2a2a2a;
+    letter-spacing: 0;
+    color: #293a4d;
     display: inline-block;
     padding-left: 46px
 }
@@ -7354,7 +7360,7 @@ div.prefooter .bouton {
     padding: 10px 15px;
     border-radius: 50px;
     color: #323232;
-    font-size: 12px
+    font-size: 15px
 }
 
 div.prefooter .bouton:hover {
@@ -7419,7 +7425,7 @@ div.prefooter .bouton:hover {
 }
 
 .visiteur-pro .swiper-pagination-bullet-active {
-    background: #89298d !important
+    background: #4b2980 !important
 }
 
 .swiper-pagination-bullet {
@@ -7480,13 +7486,13 @@ div.prefooter .bouton:hover {
 }
 
 .site-footer .mn-item-lvl-1>.mn-link {
-    color: #2a2a2a;
+    color: #293a4d;
     font-size: 14px;
     text-transform: none;
     min-height: 0;
     padding: 5px 20px;
     line-height: 1em;
-    font-family: 'open_sansregular', helvetica, arial, sans-serif;
+    font-family: 'akrobat-regular', helvetica, arial, sans-serif;
     letter-spacing: 0
 }
 
@@ -7503,7 +7509,7 @@ div.prefooter .bouton:hover {
 }
 
 .site-footer .copyright a:hover {
-    color: #2a2a2a;
+    color: #293a4d;
     text-decoration: underline
 }
 
@@ -7564,8 +7570,8 @@ body.sitemap div.layout-2-col {
 }
 
 body.sitemap .sm-item-title {
-    color: #2a2a2a;
-    font-family: "bebas_neuebold", arial, sans-serif;
+    color: #293a4d;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: normal;
@@ -7577,7 +7583,7 @@ body.sitemap .sm-item-title {
 }
 
 body.sitemap .sm-item-link {
-    color: #2a2a2a
+    color: #293a4d
 }
 
 body.sitemap .sm-item-link:hover {
@@ -7625,10 +7631,10 @@ body.search .sr-form {
 
 body.search .sr-form .gsf-submit-btn {
     padding: 0 5px 0 0;
-    background: #2a2a2a;
+    background: #293a4d;
     height: 67px;
     width: 75px;
-    border: 1px solid #2a2a2a;
+    border: 1px solid #293a4d;
     border-radius: 0 50px 50px 0;
     -webkit-transition: all 0.25s ease;
     -o-transition: all 0.25s ease;
@@ -7663,11 +7669,11 @@ body.search .sr-form .form-txt:focus {
 }
 
 body.search .sr-main-title {
-    font-family: "bebas_neuebold", arial, sans-serif;
+    font-family: "sofiapro-bold", arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 45px;
-    letter-spacing: 1px;
+    letter-spacing: 0;
     text-align: center;
     background: #83b81a;
     color: #c3ea87;
@@ -7701,14 +7707,14 @@ body.search .sr-nb-result::before {
 
 body.search .sr-group-title {
     background-color: white;
-    font-family: "bebas_neueregular", arial, sans-serif;
+    font-family: "sofiapro-light", arial, sans-serif;
     font-size: 32px;
     font-weight: normal;
     text-align: center;
     display: inline-block;
     padding: 8px 24px;
     line-height: 38px;
-    color: #2a2a2a
+    color: #293a4d
 }
 
 body.search .sr-item-img {
@@ -7743,8 +7749,8 @@ body.search .sr-item-content .sr-item-title {
 }
 
 body.search .sr-item-content .sr-item-title a {
-    font-family: "bebas_neuebold", arial, sans-serif;
-    color: #2a2a2a;
+    font-family: "sofiapro-bold", arial, sans-serif;
+    color: #293a4d;
     font-size: 33px;
     line-height: 30px
 }
@@ -7872,12 +7878,12 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
 }
 
 .agrimalin h3 {
-    color: #2A2A2A;
-    font-family: 'bebas_neueregular', Arial, Helvetica, sans-serif;
-    font-size: 32px;
-    line-height: 42px;
+    color: #293a4d;
+    font-family: 'sofiapro-light', Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    line-height: 32px;
+    margin: 0 0 23px 0;
     font-weight: normal;
-    margin: 0;
     padding: 0
 }
 
@@ -7920,14 +7926,14 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
     background-position: right 20px center;
     background-size: 26px auto;
     text-decoration: none;
-    font-family: 'open_sansbold', helvetica, arial, sa, sans-serif;
+    font-family: 'akrobat-bold', helvetica, arial, sa, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
     padding: 12px 55px 12px 25px;
     border-radius: 50px;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     -webkit-box-shadow: 0 15px 25px -15px rgba(0, 0, 0, 0.2);
     box-shadow: 0 15px 25px -15px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -7999,7 +8005,7 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
     background: url(img/sia2018/home/arrow-bt-vert-right.svg) no-repeat 90% center #fff;
     background-size: 22px auto;
     text-decoration: none;
-    font-family: 'open_sansbold', helvetica, arial, sa, sans-serif;
+    font-family: 'akrobat-bold', helvetica, arial, sa, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
@@ -8595,14 +8601,14 @@ screen and (-ms-high-contrast: none) {
     background-position: right 25px center;
     background-size: 26px auto;
     text-decoration: none;
-    font-family: "open_sansbold", helvetica, arial, sans-serif;
+    font-family: "akrobat-bold", helvetica, arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     display: inline-block;
     padding: 13px 65px 13px 30px;
     border-radius: 50px;
     color: white;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 28px;
     -webkit-box-shadow: 0 15px 25px -15px rgba(0, 0, 0, 0.2);
     box-shadow: 0 15px 25px -15px rgba(0, 0, 0, 0.2);
@@ -8742,7 +8748,7 @@ screen and (-ms-high-contrast: none) {
 }
 
 .quiz input[type="checkbox"]+label {
-    font-family: "open_sansregular", helvetica, arial, sans-serif;
+    font-family: "akrobat-regular", helvetica, arial, sans-serif;
     font-size: 1.4rem;
     margin: -0.4rem 0 0 1rem
 }
@@ -8759,7 +8765,7 @@ screen and (-ms-high-contrast: none) {
 .quiz label {
     margin: 0;
     font-size: 1.6rem;
-    font-family: "open_sansbold", helvetica, arial, sans-serif
+    font-family: "akrobat-bold", helvetica, arial, sans-serif
 }
 
 .quiz .step-counter {
@@ -8863,7 +8869,7 @@ screen and (-ms-high-contrast: none) {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    font-family: "open_sansregular", helvetica, arial, sans-serif
+    font-family: "akrobat-regular", helvetica, arial, sans-serif
 }
 
 .quiz .quiz-content .quiz-label input {

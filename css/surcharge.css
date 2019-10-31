@@ -7717,6 +7717,13 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
   line-height: 1.6rem; }
 
 .content800296 .container-landing {
+  background-image: url("img/sia2018/landing/background-animaux.jpg"); }
+
+.content800430 .container-landing {
+  background-image: url("img/sia2018/landing/background-gourmand.jpg"); }
+
+.content800296 .container-landing,
+.content800430 .container-landing {
   background-image: url("img/sia2018/landing/background-animaux.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -7726,7 +7733,8 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
   top: 0;
   left: 0;
   overflow: scroll; }
-  .content800296 .container-landing .section-content {
+  .content800296 .container-landing .section-content,
+  .content800430 .container-landing .section-content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -7737,9 +7745,11 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
     -ms-flex-preferred-size: 60%;
         flex-basis: 60%;
     padding: 7rem; }
-    .content800296 .container-landing .section-content .container-logo .logo {
+    .content800296 .container-landing .section-content .container-logo .logo,
+    .content800430 .container-landing .section-content .container-logo .logo {
       max-width: 24rem !important; }
-    .content800296 .container-landing .section-content .txt {
+    .content800296 .container-landing .section-content .txt,
+    .content800430 .container-landing .section-content .txt {
       margin: 10% 0 0 0;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -7752,12 +7762,15 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
           -ms-flex-pack: end;
               justify-content: flex-end; }
       @media screen and (max-width: 1600px) {
-        .content800296 .container-landing .section-content .txt {
-          margin: 33% 0 0 0; } }
+        .content800296 .container-landing .section-content .txt,
+        .content800430 .container-landing .section-content .txt {
+          margin: 15% 0 0 0; } }
       @media screen and (max-width: 1200px) {
-        .content800296 .container-landing .section-content .txt {
+        .content800296 .container-landing .section-content .txt,
+        .content800430 .container-landing .section-content .txt {
           margin: 10% 0 0 0; } }
-      .content800296 .container-landing .section-content .txt em {
+      .content800296 .container-landing .section-content .txt em,
+      .content800430 .container-landing .section-content .txt em {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -7766,12 +7779,14 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
         font-style: initial;
         margin-bottom: 0rem;
         color: white; }
-      .content800296 .container-landing .section-content .txt strong {
+      .content800296 .container-landing .section-content .txt strong,
+      .content800430 .container-landing .section-content .txt strong {
         font-size: 5.2rem;
         line-height: 5rem;
         font-family: "sofiapro-bold", helvetica, arial, sans-serif;
         color: white; }
-      .content800296 .container-landing .section-content .txt h1 {
+      .content800296 .container-landing .section-content .txt h1,
+      .content800430 .container-landing .section-content .txt h1 {
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke-width: 0.2rem;
         -webkit-text-stroke-color: white;
@@ -7783,9 +7798,11 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
         border-bottom: 0;
         line-height: 9.8rem; }
         @media screen and (max-width: 1600px) {
-          .content800296 .container-landing .section-content .txt h1 {
+          .content800296 .container-landing .section-content .txt h1,
+          .content800430 .container-landing .section-content .txt h1 {
             font-size: 9rem; } }
-      .content800296 .container-landing .section-content .txt p.date {
+      .content800296 .container-landing .section-content .txt p.date,
+      .content800430 .container-landing .section-content .txt p.date {
         font-size: 2.2rem;
         font-family: "sofiapro-bold", helvetica, arial, sans-serif;
         color: white;
@@ -7793,7 +7810,8 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
         margin-bottom: 5.4rem;
         font-weight: 700;
         max-width: 60rem; }
-      .content800296 .container-landing .section-content .txt h2 {
+      .content800296 .container-landing .section-content .txt h2,
+      .content800430 .container-landing .section-content .txt h2 {
         font-size: 3rem;
         font-family: "akrobat-bold", helvetica, arial, sans-serif;
         color: white;
@@ -7801,7 +7819,8 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
         line-height: 4rem;
         max-width: 60rem;
         margin-top: 0; }
-      .content800296 .container-landing .section-content .txt p.current-txt {
+      .content800296 .container-landing .section-content .txt p.current-txt,
+      .content800430 .container-landing .section-content .txt p.current-txt {
         font-size: 2.1rem;
         font-family: "akrobat-bold", helvetica, arial, sans-serif;
         color: white;
@@ -7809,13 +7828,20 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
         font-weight: 100;
         max-width: 60rem;
         margin-top: 0; }
-  .content800296 .container-landing iframe {
+  .content800296 .container-landing iframe,
+  .content800430 .container-landing iframe {
     height: calc(100vh - 14rem) !important; }
-  .content800296 .container-landing .section-form {
+    @media screen and (max-width: 1200px) {
+      .content800296 .container-landing iframe,
+      .content800430 .container-landing iframe {
+        max-width: 100%; } }
+  .content800296 .container-landing .section-form,
+  .content800430 .container-landing .section-form {
     -ms-flex-preferred-size: 40%;
         flex-basis: 40%;
     padding: 7rem; }
-    .content800296 .container-landing .section-form .form {
+    .content800296 .container-landing .section-form .form,
+    .content800430 .container-landing .section-form .form {
       top: 50%;
       position: relative;
       -webkit-transform: translateY(-50%);
@@ -7823,7 +7849,8 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
               transform: translateY(-50%);
       height: calc(100vh - 14rem);
       overflow-y: scroll; }
-  .content800296 .container-landing .container-agrimalin {
+  .content800296 .container-landing .container-agrimalin,
+  .content800430 .container-landing .container-agrimalin {
     position: fixed;
     padding-bottom: 2rem;
     left: 4rem;
@@ -7833,9 +7860,11 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
     -o-transition: bottom .3s ease-in-out;
     transition: bottom .3s ease-in-out;
     bottom: -13.1rem; }
-    .content800296 .container-landing .container-agrimalin:hover {
+    .content800296 .container-landing .container-agrimalin:hover,
+    .content800430 .container-landing .container-agrimalin:hover {
       bottom: -1rem; }
-    .content800296 .container-landing .container-agrimalin::before {
+    .content800296 .container-landing .container-agrimalin::before,
+    .content800430 .container-landing .container-agrimalin::before {
       content: '';
       position: absolute;
       background-image: url(img/sia2018/landing/main-1.svg);
@@ -7844,7 +7873,8 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
       left: 9rem;
       top: 5.6rem;
       z-index: 999; }
-    .content800296 .container-landing .container-agrimalin::after {
+    .content800296 .container-landing .container-agrimalin::after,
+    .content800430 .container-landing .container-agrimalin::after {
       content: '';
       position: absolute;
       background-image: url(img/sia2018/landing/main-2.svg);
@@ -7853,7 +7883,8 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
       right: 9.2rem;
       top: 5.6rem;
       z-index: 999; }
-    .content800296 .container-landing .container-agrimalin .content-anecdote {
+    .content800296 .container-landing .container-agrimalin .content-anecdote,
+    .content800430 .container-landing .container-agrimalin .content-anecdote {
       background: white;
       padding: 3rem;
       border-radius: 2rem;
@@ -7862,7 +7893,8 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
       max-width: 38rem;
       min-height: 13rem;
       position: relative; }
-      .content800296 .container-landing .container-agrimalin .content-anecdote .cta-anecdote {
+      .content800296 .container-landing .container-agrimalin .content-anecdote .cta-anecdote,
+      .content800430 .container-landing .container-agrimalin .content-anecdote .cta-anecdote {
         position: absolute;
         width: 2.5rem;
         height: 2.2rem;
@@ -7870,12 +7902,15 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
         top: 1.5rem;
         right: 1.6rem;
         cursor: pointer; }
-      .content800296 .container-landing .container-agrimalin .content-anecdote .quote {
+      .content800296 .container-landing .container-agrimalin .content-anecdote .quote,
+      .content800430 .container-landing .container-agrimalin .content-anecdote .quote {
         line-height: 2.2rem; }
-      .content800296 .container-landing .container-agrimalin .content-anecdote p {
+      .content800296 .container-landing .container-agrimalin .content-anecdote p,
+      .content800430 .container-landing .container-agrimalin .content-anecdote p {
         font-size: 1.6rem;
         font-family: "akrobat-bold", helvetica, arial, sans-serif; }
-    .content800296 .container-landing .container-agrimalin img {
+    .content800296 .container-landing .container-agrimalin img,
+    .content800430 .container-landing .container-agrimalin img {
       left: 50%;
       -webkit-transform: translate(-50%, -50%);
           -ms-transform: translate(-50%, -50%);

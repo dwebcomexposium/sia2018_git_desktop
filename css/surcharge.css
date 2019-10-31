@@ -7723,6 +7723,8 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
   height: 100vh;
   width: 100%;
   position: fixed;
+  top: 0;
+  left: 0;
   overflow: scroll; }
   .content800296 .container-landing .section-content {
     display: -webkit-box;
@@ -7752,6 +7754,9 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
       @media screen and (max-width: 1600px) {
         .content800296 .container-landing .section-content .txt {
           margin: 33% 0 0 0; } }
+      @media screen and (max-width: 1200px) {
+        .content800296 .container-landing .section-content .txt {
+          margin: 10% 0 0 0; } }
       .content800296 .container-landing .section-content .txt em {
         display: -webkit-box;
         display: -ms-flexbox;

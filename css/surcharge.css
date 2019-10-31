@@ -7717,12 +7717,13 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
   line-height: 1.6rem; }
 
 .content800296 .container-landing {
-  background-image: url("img/sia2018/landing/background-animaux.jpg");
+  background-image: url("../img/sia2018/landing/background-animaux.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
-  position: relative; }
+  position: fixed;
+  overflow: scroll; }
   .content800296 .container-landing .section-content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -7832,7 +7833,7 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
     .content800296 .container-landing .container-agrimalin::before {
       content: '';
       position: absolute;
-      background-image: url(img/sia2018/landing/main-1.svg);
+      background-image: url(../img/sia2018/landing/main-1.svg);
       width: 3rem;
       height: 2.9rem;
       left: 9rem;
@@ -7841,7 +7842,7 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
     .content800296 .container-landing .container-agrimalin::after {
       content: '';
       position: absolute;
-      background-image: url(img/sia2018/landing/main-2.svg);
+      background-image: url(../img/sia2018/landing/main-2.svg);
       width: 3.2rem;
       height: 3.20rem;
       right: 9.2rem;
@@ -7860,7 +7861,7 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
         position: absolute;
         width: 2.5rem;
         height: 2.2rem;
-        background-image: url("img/sia2018/landing/refresh.svg");
+        background-image: url("../img/sia2018/landing/refresh.svg");
         top: 1.5rem;
         right: 1.6rem;
         cursor: pointer; }

@@ -13,19 +13,32 @@
 
         const quotes = [
           [
-              "Wikipsum wishful wizards want wands Thomas Hyndeman DD (a.k.a. Hendeman or Hendyman) was an English medieval churchman"
+              "Le salon est ouvert du 22 février au 1er mars de 9h à 19h Soyez malin, pensez transports en commun !  "
           ],
           [
-              "The red-throated piping guan (Pipile cujubi) is a species of bird in the family Cracidae."
+              "Le Salon accueille chaque année 4000 animaux Vous pouvez présenter votre e-billet sur votre smartphone aux entrées.  "
           ],
           [
-              "The heats were held at 10:00.[5] The semifinals were held at 18:18.[6] The final was held at 18:41.[7]"
+              "Des zones de repos sont à votre disposition dans les pavillons 4, 5.2, 6, 7.1 Consultez nos réseaux sociaux pour tout savoir sur le salon !  "
           ],
           [
-            "Trogonophidae (Palearctic worm lizards or desert ringed lizards) is a small family of amphisbaenians, containing five species in four genera."
+            "Une question ? Notre chatbot Agri’malin y répond !  Pour préparer au mieux votre visite consultez notre calendrier des événements.  "
           ],
           [
-            "he Massachusetts Teachers' Oath was a loyalty oath required to teach in Massachusetts from 1935 to 1967."
+            "Le saviez-vous ? Les cochons dorment 12h par jour ! "
+          ],
+          [
+            "Le saviez-vous ? Les pigeons peuvent retrouver leur chemin à plus de 2000km "
+          ],
+          [
+            "Le saviez-vous ? Un chat a 32 muscles dans chaque oreille."
+          ],
+          [
+            "Le saviez-vous ? La superficie du Salon est de 140 000m2 soit 20 terrains de football. "
+          ],
+
+          [
+            "En 2019, les membres de l’équipe ont parcouru 6 000km sur le Salon Le Salon a généré 625t de fumier."
           ]
       ];
       const quote = document.querySelector('.quote');

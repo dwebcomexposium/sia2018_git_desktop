@@ -9182,8 +9182,8 @@ screen and (-ms-high-contrast: none) {
    background-size: cover;
    background-repeat: no-repeat;
    height: 100vh;
+   min-height: 900px;
    width: 100%;
-   position: fixed;
    top: 0;
    left: 0;
    overflow-y: auto;

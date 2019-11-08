@@ -9381,7 +9381,6 @@ screen and (-ms-high-contrast: none) {
 
 .content800296 .container-landing iframe,
 .content800430 .container-landing iframe {
-   height: calc(100vh - 14rem) !important;
    width: 100%;
 }
 

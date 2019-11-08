@@ -9382,6 +9382,8 @@ screen and (-ms-high-contrast: none) {
 .content800296 .container-landing iframe,
 .content800430 .container-landing iframe {
    width: 100%;
+   border: 0 none;
+   height: 95%;
 }
 
 @media screen and (max-width: 1200px) {

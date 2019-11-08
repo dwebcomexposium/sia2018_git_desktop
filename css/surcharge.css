@@ -6787,8 +6787,8 @@ body.visiteur-pro .typeform-share.button:hover {
 
 /* English version --------------------------------------------------------- */
 html[lang="en"] body.front div#zone2 .gla-item > a .gla-item-title {
-  line-height: 24px;
-  font-size: 21px; }
+  line-height: 21px;
+  font-size: 17px; }
 
 html[lang="en"] div#zone2 div.filieres .gla-item-content {
   padding: 0 10px 0 102px; }
@@ -7730,7 +7730,8 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
   width: 100%;
   position: fixed;
   top: 0;
-  left: 0; }
+  left: 0;
+  overflow-y: auto; }
   .content800296 .container-landing .section-content,
   .content800430 .container-landing .section-content {
     display: -webkit-box;
@@ -7743,6 +7744,11 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
     -ms-flex-preferred-size: 60%;
         flex-basis: 60%;
     padding: 7rem; }
+    @media screen and (max-width: 768px) {
+      .content800296 .container-landing .section-content,
+      .content800430 .container-landing .section-content {
+        -ms-flex-preferred-size: 20%;
+            flex-basis: 20%; } }
     .content800296 .container-landing .section-content .container-logo .logo,
     .content800430 .container-landing .section-content .container-logo .logo {
       max-width: 24rem !important; }
@@ -7806,7 +7812,8 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
         margin: 0;
         padding: 0;
         border-bottom: 0;
-        line-height: 9.8rem; }
+        line-height: 9.8rem;
+        font-weight: normal; }
         @media screen and (max-width: 1440px) {
           .content800296 .container-landing .section-content .txt h1,
           .content800430 .container-landing .section-content .txt h1 {
@@ -7870,14 +7877,12 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
         max-width: 100%; } }
   .content800296 .container-landing .section-form,
   .content800430 .container-landing .section-form {
-    -ms-flex-preferred-size: 40%;
-        flex-basis: 40%;
+    min-width: 40%;
     padding: 7rem; }
     @media screen and (max-width: 768px) {
       .content800296 .container-landing .section-form,
       .content800430 .container-landing .section-form {
-        -ms-flex-preferred-size: 50% !important;
-            flex-basis: 50% !important; } }
+        min-width: 80% !important; } }
     .content800296 .container-landing .section-form .form,
     .content800430 .container-landing .section-form .form {
       top: 50%;
@@ -7886,6 +7891,7 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
           -ms-transform: translateY(-50%);
               transform: translateY(-50%);
       height: calc(100vh - 14rem);
+      background: white;
       overflow-y: scroll; }
   .content800296 .container-landing .container-agrimalin,
   .content800430 .container-landing .container-agrimalin {
@@ -7897,7 +7903,7 @@ html[lang="en"] div#zone2 div.votre-univers .list-grids-with-pagin article .gla-
     -webkit-transition: bottom .3s ease-in-out;
     -o-transition: bottom .3s ease-in-out;
     transition: bottom .3s ease-in-out;
-    bottom: -13.1rem; }
+    bottom: -9.8rem; }
     .content800296 .container-landing .container-agrimalin:hover,
     .content800430 .container-landing .container-agrimalin:hover {
       bottom: -1rem; }

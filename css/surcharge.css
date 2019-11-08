@@ -9165,11 +9165,11 @@ screen and (-ms-high-contrast: none) {
 }
 
 .content800296 .container-landing {
-   background-image: url("../img/sia2018/landing/background-animaux.jpg");
+   background-image: url("img/sia2018/landing/background-animaux.jpg");
 }
 
 .content800430 .container-landing {
-   background-image: url("../img/sia2018/landing/background-gourmand.jpg");
+   background-image: url("img/sia2018/landing/background-gourmand.jpg");
 }
 
 .content800296 #widgetBody,
@@ -9379,6 +9379,12 @@ screen and (-ms-high-contrast: none) {
    }
 }
 
+.content800296 .container-landing iframe,
+.content800430 .container-landing iframe {
+   height: calc(100vh - 14rem) !important;
+   width: 100%;
+}
+
 @media screen and (max-width: 1200px) {
    .content800296 .container-landing iframe,
    .content800430 .container-landing iframe {
@@ -9433,7 +9439,7 @@ screen and (-ms-high-contrast: none) {
 .content800430 .container-landing .container-agrimalin::before {
    content: '';
    position: absolute;
-   background-image: url(../img/sia2018/landing/main-1.svg);
+   background-image: url(img/sia2018/landing/main-1.svg);
    width: 3rem;
    height: 2.9rem;
    left: 9rem;
@@ -9445,7 +9451,7 @@ screen and (-ms-high-contrast: none) {
 .content800430 .container-landing .container-agrimalin::after {
    content: '';
    position: absolute;
-   background-image: url(../img/sia2018/landing/main-2.svg);
+   background-image: url(img/sia2018/landing/main-2.svg);
    width: 3.2rem;
    height: 3.20rem;
    right: 9.2rem;
@@ -9470,7 +9476,7 @@ screen and (-ms-high-contrast: none) {
    position: absolute;
    width: 2.5rem;
    height: 2.2rem;
-   background-image: url("../img/sia2018/landing/refresh.svg");
+   background-image: url("img/sia2018/landing/refresh.svg");
    top: 1.5rem;
    right: 1.6rem;
    cursor: pointer;

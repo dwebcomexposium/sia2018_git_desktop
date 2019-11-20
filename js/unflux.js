@@ -13,7 +13,10 @@
 
         const quotes = [
           [
-              "Le salon est ouvert du 22 février au 1er mars de 9h à 19h Soyez malin, pensez transports en commun !  "
+              "Le salon est ouvert du 22 février au 1er mars de 9h à 19h."
+          ],
+          [
+             "Soyez malin, pensez transports en commun !"
           ],
           [
               "Le Salon accueille chaque année 4000 animaux Vous pouvez présenter votre e-billet sur votre smartphone aux entrées.  "
@@ -21,10 +24,9 @@
           [
               "Des zones de repos sont à votre disposition dans les pavillons 4, 5.2, 6, 7.1"
           ],
-          
           [
             "Consultez nos réseaux sociaux pour tout savoir sur le salon ! "
-           ],
+          ],
           [
             "Une question ? Notre chatbot Agri’malin y répond !  Pour préparer au mieux votre visite consultez notre calendrier des événements.  "
           ],
@@ -40,7 +42,6 @@
           [
             "Le saviez-vous ? La superficie du Salon est de 140 000m2 soit 20 terrains de football. "
           ],
-
           [
             "En 2019, les membres de l’équipe ont parcouru 6 000km sur le Salon Le Salon a généré 625t de fumier."
           ]

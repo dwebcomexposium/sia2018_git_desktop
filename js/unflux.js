@@ -43,7 +43,7 @@
             "Le saviez-vous ? La superficie du Salon est de <br> 140 000m2 soit 20 terrains de football. "
           ],
           [
-            "En 2019, les membres de l’équipe ont parcouru 6 000km sur le Salon Le Salon a généré <br> 625t de fumier."
+            "En 2019, les membres de l’équipe ont parcouru <br> 6 000km sur le Salon Le Salon a généré <br> 625t de fumier."
           ]
       ];
       const quote = document.querySelector('.quote');

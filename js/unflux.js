@@ -19,8 +19,12 @@
               "Le Salon accueille chaque année 4000 animaux Vous pouvez présenter votre e-billet sur votre smartphone aux entrées.  "
           ],
           [
-              "Des zones de repos sont à votre disposition dans les pavillons 4, 5.2, 6, 7.1 Consultez nos réseaux sociaux pour tout savoir sur le salon !  "
+              "Des zones de repos sont à votre disposition dans les pavillons 4, 5.2, 6, 7.1"
           ],
+          
+          [
+            "Consultez nos réseaux sociaux pour tout savoir sur le salon ! "
+           ],
           [
             "Une question ? Notre chatbot Agri’malin y répond !  Pour préparer au mieux votre visite consultez notre calendrier des événements.  "
           ],

@@ -13,7 +13,7 @@
 
         const quotes = [
           [
-              "Le salon est ouvert du 22 février au 1er mars de <br> 9h à 19h."
+              "Le salon est ouvert du 22 février au 1er mars <br> de 9h à 19h."
           ],
           [
              "Soyez malin, pensez transports en commun !"
@@ -37,13 +37,13 @@
             "Le saviez-vous ? Les pigeons peuvent retrouver leur chemin à plus de 2000km "
           ],
           [
-            "Le saviez-vous ? Un chat a 32 muscles dans chaque oreille."
+            "Le saviez-vous ? Un chat a 32 muscles dans <br> chaque oreille."
           ],
           [
-            "Le saviez-vous ? La superficie du Salon est de 140 000m2 soit 20 terrains de football. "
+            "Le saviez-vous ? La superficie du Salon est de <br> 140 000m2 soit 20 terrains de football. "
           ],
           [
-            "En 2019, les membres de l’équipe ont parcouru 6 000km sur le Salon Le Salon a généré 625t de fumier."
+            "En 2019, les membres de l’équipe ont parcouru 6 000km sur le Salon Le Salon a généré <br> 625t de fumier."
           ]
       ];
       const quote = document.querySelector('.quote');

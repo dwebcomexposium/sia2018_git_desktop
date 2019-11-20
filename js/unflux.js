@@ -13,7 +13,7 @@
 
         const quotes = [
           [
-              "Le salon est ouvert du 22 février au 1er mars de 9h à 19h."
+              "Le salon est ouvert du 22 février au 1er mars de <br> 9h à 19h."
           ],
           [
              "Soyez malin, pensez transports en commun !"

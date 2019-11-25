@@ -52,7 +52,7 @@
             "En 2019, les membres de l’équipe ont parcouru <br> 6 000km sur le Salon."
           ],
           [
-            "Le Salon a généré <br> 625t de fumier."
+            "Le Salon a généré 625t de fumier."
           ],
       ];
       const quote = document.querySelector('.quote');

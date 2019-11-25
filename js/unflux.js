@@ -19,16 +19,22 @@
              "Soyez malin, pensez transports en commun !"
           ],
           [
-              "Le Salon accueille chaque année 4000 animaux Vous pouvez présenter votre e-billet sur votre smartphone aux entrées.  "
+              "Le Salon accueille chaque année 4000 animaux."
           ],
           [
-              "Des zones de repos sont à votre disposition dans les pavillons 4, 5.2, 6, 7.1"
+            "Vous pouvez présenter votre e-billet sur votre smartphone aux entrées."
+          ],
+          [
+             "Des zones de repos sont à votre disposition dans les pavillons 4, 5.2, 6, 7.1"
           ],
           [
             "Consultez nos réseaux sociaux pour tout savoir sur le salon ! "
           ],
           [
-            "Une question ? Notre chatbot Agri’malin y répond !  Pour préparer au mieux votre visite consultez notre calendrier des événements.  "
+            "Une question ? Notre chatbot Agri’malin y répond !"
+          ],
+          [
+            "Pour préparer au mieux votre visite consultez notre calendrier des événements."
           ],
           [
             "Le saviez-vous ? Les cochons dorment 12h par jour ! "
@@ -43,8 +49,11 @@
             "Le saviez-vous ? La superficie du Salon est de <br> 140 000m2 soit 20 terrains de football. "
           ],
           [
-            "En 2019, les membres de l’équipe ont parcouru <br> 6 000km sur le Salon Le Salon a généré <br> 625t de fumier."
-          ]
+            "En 2019, les membres de l’équipe ont parcouru <br> 6 000km sur le Salon."
+          ],
+          [
+            "Le Salon a généré <br> 625t de fumier."
+          ],
       ];
       const quote = document.querySelector('.quote');
 

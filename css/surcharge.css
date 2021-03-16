@@ -7795,7 +7795,7 @@ div.prefooter .bouton:hover {
 }
 
 .site-footer .footer-logos .ministere {
-   max-width: 70px;
+  /* max-width: 70px;*/
 }
 
 .site-footer .footer-logos .comexposium {
